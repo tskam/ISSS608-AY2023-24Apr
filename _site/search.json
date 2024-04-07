@@ -702,70 +702,70 @@
   {
     "objectID": "outline/Lesson08_outline.html",
     "href": "outline/Lesson08_outline.html",
-    "title": "Lesson 8: Network Data Visualisation and Analysis",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
     "section": "",
-    "text": "Introduction to Graph Data Visualisation\n\nBasic principles of network graph\nGraph data visualisation in actions\n\nNetwork Graph Data\n\nNetwork data sets\nGraph data format\nGraph Database\n\nNetwork Graph Visualisation Tools\nDesigner toolkit\n\nGephi\n\nProgrammer toolkit\n\nR packages\n\nGraph layouts\n\nNode-and-link layouts\nForce-directed layout\nNode-only layout\nAdjacency matrix\n\nVisual Attributes\n\nKey node attributes\nKey edge attributes\nBundles, shapes, images, and more\n\nVisual Analysis of Network Graphs\n\nRelationships\nHierarchies\nCommunities\n\nFlows\nSpatial networks"
+    "text": "Introducing map\nProperties of geographical data\nTypology of map\nThematic mapping techniques\n\nProportional symbol map\nChoropleth map\nData Classification\n\nAlternative mapping techniques"
   },
   {
     "objectID": "outline/Lesson08_outline.html#content",
     "href": "outline/Lesson08_outline.html#content",
-    "title": "Lesson 8: Network Data Visualisation and Analysis",
+    "title": "Lesson 9: Network Data Visualisation and Analysis",
     "section": "",
     "text": "Introduction to Graph Data Visualisation\n\nBasic principles of network graph\nGraph data visualisation in actions\n\nNetwork Graph Data\n\nNetwork data sets\nGraph data format\nGraph Database\n\nNetwork Graph Visualisation Tools\nDesigner toolkit\n\nGephi\n\nProgrammer toolkit\n\nR packages\n\nGraph layouts\n\nNode-and-link layouts\nForce-directed layout\nNode-only layout\nAdjacency matrix\n\nVisual Attributes\n\nKey node attributes\nKey edge attributes\nBundles, shapes, images, and more\n\nVisual Analysis of Network Graphs\n\nRelationships\nHierarchies\nCommunities\n\nFlows\nSpatial networks"
   },
   {
     "objectID": "outline/Lesson08_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson08_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 8: Network Data Visualisation and Analysis",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 9: Visualising and Analysing Network Data slides\nHands-on Exercise 9: Modelling, Visualising and Analysing Network Data with R."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 8: Visualising and Analysing Geographic Data slides.\n\nHands-on Exercises:\n\nHands-on Exercise 8: Choropleth Mapping in R\nHands-on Exercise 8: Visualising Geospatial Point Data\nHands-on Exercise 8: Analytical Mapping."
   },
   {
     "objectID": "outline/Lesson08_outline.html#readings",
     "href": "outline/Lesson08_outline.html#readings",
-    "title": "Lesson 8: Network Data Visualisation and Analysis",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
     "section": "Readings",
-    "text": "Readings\n\nVisual Analysis of Complex Networks for Business Intelligence with Gephi\nGraph Drawing\nGraph Analytics - Lesson Learned and Challenges Ahead\nLearning to Read and Interpret Network Graph Data Visualizations\nThe Visualization of Networks\nViZster: Visualizing Online Social Networks\nAdam Perer. “Finding Beautiful Insights in the Chaos of Social Network Visualizations”. In ’‘’Beautiful Visualization’’’. O’Reilly Press.\nVisual Complexity"
+    "text": "Readings\n\nCore Reading\n\nThe Concept of Map Symbols\nProportional Symbols\nChoropleth map\nChoropleth Maps\nThe Basics of Data Classification\n\n\n\nAdditional Readings\n\nChoropleth Maps – A Guide to Data Classification\nBivariate Choropleth\nValue-by-alpha maps\nWhat to consider when creating choropleth maps\nChoropleth Mapping with Exploratory Data Analysis\nCartogram Maps: Data Visualization with Exaggeration\nCartogram\nWhen Maps Shouldn’t Be Maps\nWhat to consider when creating choropleth maps"
   },
   {
     "objectID": "outline/Lesson08_outline.html#all-about-r",
     "href": "outline/Lesson08_outline.html#all-about-r",
-    "title": "Lesson 8: Network Data Visualisation and Analysis",
+    "title": "Lesson 9: Network Data Visualisation and Analysis",
     "section": "All About R",
     "text": "All About R\n\nWrangling Network Data\n\ntidygraph\ntidygraph 1.1 – A tidy hope\ntidygraph\n\n\n\nVisualisation and Analysis\nggraph\n\nggraph\nAnnouncing ggraph\n1 giraffe, 2 giraffe, GO!\nLayouts\nNodes\nEdges\ntidygraph and ggraph\n\nvizNetwork\n\nvisNetwork: Network Visualization using ‘vis.js’ Library\nIntroduction to visNetwork\nvisNetwork, an R package for interactive network visualization\n\nCircular Plot\n\ncirclize: circular visualization in R\nCircular Visualization in R"
   },
   {
     "objectID": "outline/Lesson06_outline.html",
     "href": "outline/Lesson06_outline.html",
-    "title": "Visualising and Analysing Time-Oriented Data",
+    "title": "Lesson 6: Visual Multivariate Analysis",
     "section": "",
-    "text": "Characteristics of time-series data\nA short visual history of time-series graphs\nTime-series patterns\nTime-series data visualization Methods\n\nLine graph\nControl chart\nSlopegraph\nCycle plot\nHorizon graph\nSunburst diagram\nCalendar Heatmap\nStream Graph\n\nInteractive techniques for time-series data visualisation\nAnimation techniques for time-series visualisation"
+    "text": "Correlation Matrix\n\nCorrelogram\n\nMultivariate Data Visualisation\n\nternary plot\nGlyphs or Star Plot\nheatmap\nparallel coordinate plot\nparallel plot\n\nSpace-constrained visualization of hierarchies\n\nTreemaps\nSunburst diagram"
   },
   {
     "objectID": "outline/Lesson06_outline.html#lesson-content",
     "href": "outline/Lesson06_outline.html#lesson-content",
-    "title": "Visualising and Analysing Time-Oriented Data",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
     "section": "",
     "text": "Characteristics of time-series data\nA short visual history of time-series graphs\nTime-series patterns\nTime-series data visualization Methods\n\nLine graph\nControl chart\nSlopegraph\nCycle plot\nHorizon graph\nSunburst diagram\nCalendar Heatmap\nStream Graph\n\nInteractive techniques for time-series data visualisation\nAnimation techniques for time-series visualisation"
   },
   {
     "objectID": "outline/Lesson06_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson06_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Visualising and Analysing Time-Oriented Data",
+    "title": "Lesson 6: Visual Multivariate Analysis",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 6:Visualising and Analysing Time-Oriented Data slides.\nHands-on Exercise 6: Visualising and Analysing Time-oriented Data ."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 5: Visual Multivariate Analysis slides\nHands-on Exercises\n\nBuilding Ternary Plot with R.\nVisual Correlation Analysis.\nVisual Multivariate Analysis with Heatmap.\nVisual Multivariate Analysis with Parallel Coordinates Plot.\nTreemap Visualisation with R"
   },
   {
     "objectID": "outline/Lesson06_outline.html#readings",
     "href": "outline/Lesson06_outline.html#readings",
-    "title": "Visualising and Analysing Time-Oriented Data",
+    "title": "Lesson 6: Visual Multivariate Analysis",
     "section": "Readings",
-    "text": "Readings\n\nCore Readings\n\nA taxonomy of temporal data visualization techniques\nEdward Tufte’s “Slopegraphs”\nIntroduction to Cycle Plots\nVisualizing Change: An Innovation in Time-Series Analysis\nThe Development of the Horizon Graph\n\n\n\nAdditional Readings\n\nwhat is a slopegraph?\nSlopegraph Update\nTime on the Horizon\nTimeSearcher\nWhat is a slopegraph?\nDonahue, Rafe M.J. Fundamental Statistical Concepts in Presenting Data: Principles for Constructing Better Graphics. This article provide a real world example of building truthful and functional time series graph.\nHockey stick graph at wiki.\nMichael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) “Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”. Geophysical Research Letters, Vol. 26, No. pp. 759-762.\nThe Guardian (2010) “Hockey stick graph took pride of place in IPCC report, despite doubts”."
+    "text": "Readings\n\nCore Readings\nMultivariate Methods\n\nAn Introduction to Visual Multivariate Analysis\nCorrgrams: Exploratory Displays for Correlation Matrices\nTernary Plot\nMultivariate Data Glyphs\nParallel Coordinates\nWikipedia: Heatmap\n\nTreemaps\n\nShneiderman, Ben (2008) Treemaps for space-constrained visualization of hierarchies\nExtending the Utility of Treemaps with Flexible Hierarchy\n\n\n\nOptional Readings\nMultivariate Methods\n\nThe scatter-plot matrix: a great tool\nA Graphical Display of Large Correlation Matrices\nTernary Diagram\nReading a Ternary Diagram\nMultidimensional Detective\nParallel Coordinates\nMultivariate Analysis Using Parallel Coordinates\nGhosts on the Radar — Why Radar Charts Are Easily Misread\nKeep Radar Graphs Below the Radar - Far Below\nA Critique of Radar Charts\nRadar: More Evil Than Pie\n\nTreemaps\n\nTreemaps\nDiscovering Business Intelligence Using Treemap Visualization\n10 Lessons in Treemap Design\nBederson, Benjamin B.; Shneiderman, Ben; Wattenberg, Martin (2002). Ordered and quantum treemaps: Making effective use of 2D space to display hierarchies. ACM Transactions on Graphics. 21 (4): 833.\nBruls, Mark; Huizing, Kees; van Wijk, Jarke J. (2000). Squarified treemaps. In de Leeuw, W.; van Liere, R. Data Visualization 2000: Proc. Joint Eurographics and IEEE TCVG Symp. on Visualization]\nUS Economic Census Treemap\nTreeCovery: Coordinated dual treemap visualization for exploring the Recovery Act\nJuice’s Stimulus Bill Explorer\nFundexplorer\nMap of the Market\nThe HIVE Group\nTruck Sales Slip, Tripping Up Chrysler\nNewsmap\nObama’s 2011 Budget Proposal: How It’s Spent"
   },
   {
     "objectID": "outline/Lesson06_outline.html#all-about-tableau",
     "href": "outline/Lesson06_outline.html#all-about-tableau",
-    "title": "Visualising and Analysing Time-Oriented Data",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
     "section": "All About Tableau",
     "text": "All About Tableau\n\nSlopegraphs in Tableau\nHorizon Graph\nViz Variety Show: When to use heatmap calendars"
   },
@@ -912,44 +912,44 @@
   {
     "objectID": "outline/Lesson05_outline.html",
     "href": "outline/Lesson05_outline.html",
-    "title": "Lesson 5: Visual Multivariate Analysis",
+    "title": "Lesson 6: Visual Multivariate Analysis",
     "section": "",
     "text": "Correlation Matrix\n\nCorrelogram\n\nMultivariate Data Visualisation\n\nternary plot\nGlyphs or Star Plot\nheatmap\nparallel coordinate plot\nparallel plot\n\nSpace-constrained visualization of hierarchies\n\nTreemaps\nSunburst diagram"
   },
   {
     "objectID": "outline/Lesson05_outline.html#content",
     "href": "outline/Lesson05_outline.html#content",
-    "title": "Lesson 5: Visual Multivariate Analysis",
+    "title": "Lesson 6: Visual Multivariate Analysis",
     "section": "",
     "text": "Correlation Matrix\n\nCorrelogram\n\nMultivariate Data Visualisation\n\nternary plot\nGlyphs or Star Plot\nheatmap\nparallel coordinate plot\nparallel plot\n\nSpace-constrained visualization of hierarchies\n\nTreemaps\nSunburst diagram"
   },
   {
     "objectID": "outline/Lesson05_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson05_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 5: Visual Multivariate Analysis",
+    "title": "Lesson 6: Visual Multivariate Analysis",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson 5: Visual Multivariate Analysis slides\nHands-on Exercises\n\nBuilding Ternary Plot with R.\nVisual Correlation Analysis.\nVisual Multivariate Analysis with Heatmap.\nVisual Multivariate Analysis with Parallel Coordinates Plot.\nTreemap Visualisation with R"
   },
   {
     "objectID": "outline/Lesson05_outline.html#readings",
     "href": "outline/Lesson05_outline.html#readings",
-    "title": "Lesson 5: Visual Multivariate Analysis",
+    "title": "Lesson 6: Visual Multivariate Analysis",
     "section": "Readings",
     "text": "Readings\n\nCore Readings\nMultivariate Methods\n\nAn Introduction to Visual Multivariate Analysis\nCorrgrams: Exploratory Displays for Correlation Matrices\nTernary Plot\nMultivariate Data Glyphs\nParallel Coordinates\nWikipedia: Heatmap\n\nTreemaps\n\nShneiderman, Ben (2008) Treemaps for space-constrained visualization of hierarchies\nExtending the Utility of Treemaps with Flexible Hierarchy\n\n\n\nOptional Readings\nMultivariate Methods\n\nThe scatter-plot matrix: a great tool\nA Graphical Display of Large Correlation Matrices\nTernary Diagram\nReading a Ternary Diagram\nMultidimensional Detective\nParallel Coordinates\nMultivariate Analysis Using Parallel Coordinates\nGhosts on the Radar — Why Radar Charts Are Easily Misread\nKeep Radar Graphs Below the Radar - Far Below\nA Critique of Radar Charts\nRadar: More Evil Than Pie\n\nTreemaps\n\nTreemaps\nDiscovering Business Intelligence Using Treemap Visualization\n10 Lessons in Treemap Design\nBederson, Benjamin B.; Shneiderman, Ben; Wattenberg, Martin (2002). Ordered and quantum treemaps: Making effective use of 2D space to display hierarchies. ACM Transactions on Graphics. 21 (4): 833.\nBruls, Mark; Huizing, Kees; van Wijk, Jarke J. (2000). Squarified treemaps. In de Leeuw, W.; van Liere, R. Data Visualization 2000: Proc. Joint Eurographics and IEEE TCVG Symp. on Visualization]\nUS Economic Census Treemap\nTreeCovery: Coordinated dual treemap visualization for exploring the Recovery Act\nJuice’s Stimulus Bill Explorer\nFundexplorer\nMap of the Market\nThe HIVE Group\nTruck Sales Slip, Tripping Up Chrysler\nNewsmap\nObama’s 2011 Budget Proposal: How It’s Spent"
   },
   {
     "objectID": "outline/Lesson05_outline.html#r-packages",
     "href": "outline/Lesson05_outline.html#r-packages",
-    "title": "Lesson 5: Visual Multivariate Analysis",
+    "title": "Lesson 6: Visual Multivariate Analysis",
     "section": "R Packages",
     "text": "R Packages\n\nCorrelation Matrix\n\nggscatmat and ggpairs of GGally.\ncorrplot. A graphical display of a correlation matrix or general matrix. It also contains some algorithms to do matrix reordering. In addition, corrplot is good at details, including choosing color, text labels, color labels, layout, etc.\ncorrgram calculates correlation of variables and displays the results graphically. Included panel functions can display points, shading, ellipses, and correlation values with confidence intervals.\n\n\n\nHeatmap\nStatic heatmap\n\nheatmap() of R stats package. It draws a simple heatmap.\nheatmap.2() of gplots R package. It draws an enhanced heatmap compared to the R base function.\npheatmap() of pheatmap R package. pheatmap package also known as Pretty Heatmap. The package provides functions to draws pretty heatmaps and provides more control to change the appearance of heatmaps.\nComplexHeatmap package of R/Bioconductor package. The package draws, annotates and arranges complex heatmaps (very useful for genomic data analysis). The full reference guide of the package is available here.\nsuperheat package: A Graphical Tool for Exploring Complex Datasets Using Heatmaps. A system for generating extendable and customizable heatmaps for exploring complex datasets, including big data and data with multiple data types. The full reference guide of the package is available here.\n\nInteractive Heatmap\n\nheatmaply: Make Interactive Cluster Heat Maps Using ‘plotly’\nd3heatmap: Make Interactive Heat Maps Using ‘htmlwidgets’ and ’D3.js.\niheatmapr makes complex, interactive heatmaps. Detail information are available at here.\n\n\n\nTreemaps\n\nTreemap package.\n\nCreating a Treemap in R\ntreemap: mapping to color palettes\nSimple Steps to Create Treemap in R\n\ntreemapify: Draw Treemaps in ‘ggplot2’\n\nIntroduction to treemapify\nInteractive visualization with R-Shiny versus with Tableau: Treemaps\n\n\n\n\nSunburst Diagram\n\nsunburstR\nSunburst 2.0.0\nCreate Basic Sunburst Graphs with ggplot2"
   },
   {
     "objectID": "outline/Lesson07_outline.html",
     "href": "outline/Lesson07_outline.html",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
     "section": "",
-    "text": "Introducing map\nProperties of geographical data\nTypology of map\nThematic mapping techniques\n\nProportional symbol map\nChoropleth map\nData Classification\n\nAlternative mapping techniques"
+    "text": "Characteristics of time-series data\nA short visual history of time-series graphs\nTime-series patterns\nTime-series data visualization Methods\n\nLine graph\nControl chart\nSlopegraph\nCycle plot\nHorizon graph\nSunburst diagram\nCalendar Heatmap\nStream Graph\n\nInteractive techniques for time-series data visualisation\nAnimation techniques for time-series visualisation"
   },
   {
     "objectID": "outline/Lesson07_outline.html#lesson-outline",
@@ -961,16 +961,16 @@
   {
     "objectID": "outline/Lesson07_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson07_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 8: Visualising and Analysing Geographic Data slides.\n\nHands-on Exercises:\n\nHands-on Exercise 8: Choropleth Mapping in R\nHands-on Exercise 8: Visualising Geospatial Point Data\nHands-on Exercise 8: Analytical Mapping."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 6:Visualising and Analysing Time-Oriented Data slides.\nHands-on Exercise 6: Visualising and Analysing Time-oriented Data ."
   },
   {
     "objectID": "outline/Lesson07_outline.html#readings",
     "href": "outline/Lesson07_outline.html#readings",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
     "section": "Readings",
-    "text": "Readings\n\nCore Reading\n\nThe Concept of Map Symbols\nProportional Symbols\nChoropleth map\nChoropleth Maps\nThe Basics of Data Classification\n\n\n\nAdditional Readings\n\nChoropleth Maps – A Guide to Data Classification\nBivariate Choropleth\nValue-by-alpha maps\nWhat to consider when creating choropleth maps\nChoropleth Mapping with Exploratory Data Analysis\nCartogram Maps: Data Visualization with Exaggeration\nCartogram\nWhen Maps Shouldn’t Be Maps\nWhat to consider when creating choropleth maps"
+    "text": "Readings\n\nCore Readings\n\nA taxonomy of temporal data visualization techniques\nEdward Tufte’s “Slopegraphs”\nIntroduction to Cycle Plots\nVisualizing Change: An Innovation in Time-Series Analysis\nThe Development of the Horizon Graph\n\n\n\nAdditional Readings\n\nwhat is a slopegraph?\nSlopegraph Update\nTime on the Horizon\nTimeSearcher\nWhat is a slopegraph?\nDonahue, Rafe M.J. Fundamental Statistical Concepts in Presenting Data: Principles for Constructing Better Graphics. This article provide a real world example of building truthful and functional time series graph.\nHockey stick graph at wiki.\nMichael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) “Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”. Geophysical Research Letters, Vol. 26, No. pp. 759-762.\nThe Guardian (2010) “Hockey stick graph took pride of place in IPCC report, despite doubts”."
   },
   {
     "objectID": "outline/Lesson07_outline.html#visualising-geographic-data-tableau-methods",
@@ -989,29 +989,113 @@
   {
     "objectID": "outline/Lesson09_outline.html",
     "href": "outline/Lesson09_outline.html",
-    "title": "Lesson 9: Visualising and Analysing Text Data",
+    "title": "Lesson 9: Network Data Visualisation and Analysis",
     "section": "",
-    "text": "Introduction to text data and text visualisation\nText Visualisation methods:\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nText Visualisation in R\n\ntextplot\nLDAVis\nquanteda"
+    "text": "Introduction to Graph Data Visualisation\n\nBasic principles of network graph\nGraph data visualisation in actions\n\nNetwork Graph Data\n\nNetwork data sets\nGraph data format\nGraph Database\n\nNetwork Graph Visualisation Tools\nDesigner toolkit\n\nGephi\n\nProgrammer toolkit\n\nR packages\n\nGraph layouts\n\nNode-and-link layouts\nForce-directed layout\nNode-only layout\nAdjacency matrix\n\nVisual Attributes\n\nKey node attributes\nKey edge attributes\nBundles, shapes, images, and more\n\nVisual Analysis of Network Graphs\n\nRelationships\nHierarchies\nCommunities\n\nFlows\nSpatial networks"
   },
   {
     "objectID": "outline/Lesson09_outline.html#content",
     "href": "outline/Lesson09_outline.html#content",
+    "title": "Lesson 9: Network Data Visualisation and Analysis",
+    "section": "",
+    "text": "Introduction to Graph Data Visualisation\n\nBasic principles of network graph\nGraph data visualisation in actions\n\nNetwork Graph Data\n\nNetwork data sets\nGraph data format\nGraph Database\n\nNetwork Graph Visualisation Tools\nDesigner toolkit\n\nGephi\n\nProgrammer toolkit\n\nR packages\n\nGraph layouts\n\nNode-and-link layouts\nForce-directed layout\nNode-only layout\nAdjacency matrix\n\nVisual Attributes\n\nKey node attributes\nKey edge attributes\nBundles, shapes, images, and more\n\nVisual Analysis of Network Graphs\n\nRelationships\nHierarchies\nCommunities\n\nFlows\nSpatial networks"
+  },
+  {
+    "objectID": "outline/Lesson09_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson09_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 9: Network Data Visualisation and Analysis",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 9: Visualising and Analysing Network Data slides\nHands-on Exercise 9: Modelling, Visualising and Analysing Network Data with R."
+  },
+  {
+    "objectID": "outline/Lesson09_outline.html#readings",
+    "href": "outline/Lesson09_outline.html#readings",
+    "title": "Lesson 9: Network Data Visualisation and Analysis",
+    "section": "Readings",
+    "text": "Readings\n\nVisual Analysis of Complex Networks for Business Intelligence with Gephi\nGraph Drawing\nGraph Analytics - Lesson Learned and Challenges Ahead\nLearning to Read and Interpret Network Graph Data Visualizations\nThe Visualization of Networks\nViZster: Visualizing Online Social Networks\nAdam Perer. “Finding Beautiful Insights in the Chaos of Social Network Visualizations”. In ’‘’Beautiful Visualization’’’. O’Reilly Press.\nVisual Complexity"
+  },
+  {
+    "objectID": "outline/Lesson09_outline.html#all-about-r",
+    "href": "outline/Lesson09_outline.html#all-about-r",
+    "title": "Lesson 9: Network Data Visualisation and Analysis",
+    "section": "All About R",
+    "text": "All About R\n\nWrangling Network Data\n\ntidygraph\ntidygraph 1.1 – A tidy hope\ntidygraph\n\n\n\nVisualisation and Analysis\nggraph\n\nggraph\nAnnouncing ggraph\n1 giraffe, 2 giraffe, GO!\nLayouts\nNodes\nEdges\ntidygraph and ggraph\n\nvizNetwork\n\nvisNetwork: Network Visualization using ‘vis.js’ Library\nIntroduction to visNetwork\nvisNetwork, an R package for interactive network visualization\n\nCircular Plot\n\ncirclize: circular visualization in R\nCircular Visualization in R"
+  },
+  {
+    "objectID": "outline/Lesson11_outline.html",
+    "href": "outline/Lesson11_outline.html",
     "title": "Lesson 9: Visualising and Analysing Text Data",
     "section": "",
     "text": "Introduction to text data and text visualisation\nText Visualisation methods:\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nText Visualisation in R\n\ntextplot\nLDAVis\nquanteda"
   },
   {
-    "objectID": "outline/Lesson09_outline.html#lesson-slides-and-hands-on-notes",
-    "href": "outline/Lesson09_outline.html#lesson-slides-and-hands-on-notes",
+    "objectID": "outline/Lesson11_outline.html#content",
+    "href": "outline/Lesson11_outline.html#content",
+    "title": "Lesson 9: Visualising and Analysing Text Data",
+    "section": "",
+    "text": "Introduction to text data and text visualisation\nText Visualisation methods:\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nText Visualisation in R\n\ntextplot\nLDAVis\nquanteda"
+  },
+  {
+    "objectID": "outline/Lesson11_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson11_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 9: Visualising and Analysing Text Data",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson 9: Visualising and Analysing Text Data slides.\nHands-on Exercise 9: Visualising and Analysing Text Data."
   },
   {
-    "objectID": "outline/Lesson09_outline.html#readings",
-    "href": "outline/Lesson09_outline.html#readings",
+    "objectID": "outline/Lesson11_outline.html#readings",
+    "href": "outline/Lesson11_outline.html#readings",
     "title": "Lesson 9: Visualising and Analysing Text Data",
     "section": "Readings",
     "text": "Readings\n\nCore Readings\n\nFun with Text Visualization\nThe pros and cons of word clouds as visualizations"
+  },
+  {
+    "objectID": "outline/Lesson06_outline.html#content",
+    "href": "outline/Lesson06_outline.html#content",
+    "title": "Lesson 6: Visual Multivariate Analysis",
+    "section": "",
+    "text": "Correlation Matrix\n\nCorrelogram\n\nMultivariate Data Visualisation\n\nternary plot\nGlyphs or Star Plot\nheatmap\nparallel coordinate plot\nparallel plot\n\nSpace-constrained visualization of hierarchies\n\nTreemaps\nSunburst diagram"
+  },
+  {
+    "objectID": "outline/Lesson06_outline.html#r-packages",
+    "href": "outline/Lesson06_outline.html#r-packages",
+    "title": "Lesson 6: Visual Multivariate Analysis",
+    "section": "R Packages",
+    "text": "R Packages\n\nCorrelation Matrix\n\nggscatmat and ggpairs of GGally.\ncorrplot. A graphical display of a correlation matrix or general matrix. It also contains some algorithms to do matrix reordering. In addition, corrplot is good at details, including choosing color, text labels, color labels, layout, etc.\ncorrgram calculates correlation of variables and displays the results graphically. Included panel functions can display points, shading, ellipses, and correlation values with confidence intervals.\n\n\n\nHeatmap\nStatic heatmap\n\nheatmap() of R stats package. It draws a simple heatmap.\nheatmap.2() of gplots R package. It draws an enhanced heatmap compared to the R base function.\npheatmap() of pheatmap R package. pheatmap package also known as Pretty Heatmap. The package provides functions to draws pretty heatmaps and provides more control to change the appearance of heatmaps.\nComplexHeatmap package of R/Bioconductor package. The package draws, annotates and arranges complex heatmaps (very useful for genomic data analysis). The full reference guide of the package is available here.\nsuperheat package: A Graphical Tool for Exploring Complex Datasets Using Heatmaps. A system for generating extendable and customizable heatmaps for exploring complex datasets, including big data and data with multiple data types. The full reference guide of the package is available here.\n\nInteractive Heatmap\n\nheatmaply: Make Interactive Cluster Heat Maps Using ‘plotly’\nd3heatmap: Make Interactive Heat Maps Using ‘htmlwidgets’ and ’D3.js.\niheatmapr makes complex, interactive heatmaps. Detail information are available at here.\n\n\n\nTreemaps\n\nTreemap package.\n\nCreating a Treemap in R\ntreemap: mapping to color palettes\nSimple Steps to Create Treemap in R\n\ntreemapify: Draw Treemaps in ‘ggplot2’\n\nIntroduction to treemapify\nInteractive visualization with R-Shiny versus with Tableau: Treemaps\n\n\n\n\nSunburst Diagram\n\nsunburstR\nSunburst 2.0.0\nCreate Basic Sunburst Graphs with ggplot2"
+  },
+  {
+    "objectID": "outline/Lesson07_outline.html#lesson-content",
+    "href": "outline/Lesson07_outline.html#lesson-content",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "",
+    "text": "Characteristics of time-series data\nA short visual history of time-series graphs\nTime-series patterns\nTime-series data visualization Methods\n\nLine graph\nControl chart\nSlopegraph\nCycle plot\nHorizon graph\nSunburst diagram\nCalendar Heatmap\nStream Graph\n\nInteractive techniques for time-series data visualisation\nAnimation techniques for time-series visualisation"
+  },
+  {
+    "objectID": "outline/Lesson07_outline.html#all-about-tableau",
+    "href": "outline/Lesson07_outline.html#all-about-tableau",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "All About Tableau",
+    "text": "All About Tableau\n\nSlopegraphs in Tableau\nHorizon Graph\nViz Variety Show: When to use heatmap calendars"
+  },
+  {
+    "objectID": "outline/Lesson08_outline.html#lesson-outline",
+    "href": "outline/Lesson08_outline.html#lesson-outline",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "",
+    "text": "Introducing map\nProperties of geographical data\nTypology of map\nThematic mapping techniques\n\nProportional symbol map\nChoropleth map\nData Classification\n\nAlternative mapping techniques"
+  },
+  {
+    "objectID": "outline/Lesson08_outline.html#visualising-geographic-data-tableau-methods",
+    "href": "outline/Lesson08_outline.html#visualising-geographic-data-tableau-methods",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Visualising Geographic Data: Tableau Methods",
+    "text": "Visualising Geographic Data: Tableau Methods\n\nBasic Tutorial\n\nMaps and Geographic Data Analysis in Tableau. This chapter from the User Guide of Tableau provide a comprehensive overview of the mapping concepts and Tableau methods. I strongly recommend you to read the chapter at least once.\nLive Training: Mapping\nGetting Started with Mapping\nMaps in Tableau\nEditing Unrecognized Location\nSpatial Files\nThe Density Mark Type (Heat maps)\nExpanding Tableau’s Mapping Capabilities\nCustom Geocoding\nPolygon Maps\nBackground Images\n\n\n\nBeyond the Basic\n\nAdvanced Mapping with Tableau\n10 ways to add value to your dashboards with maps\n3 Ways to Make Magnificent Maps in Tableau\nHow to Make Trellis / Tile / Small Multiple Maps in Tableau"
+  },
+  {
+    "objectID": "outline/Lesson08_outline.html#geovisual-analytics-r-methods",
+    "href": "outline/Lesson08_outline.html#geovisual-analytics-r-methods",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "GeoVisual Analytics: R methods",
+    "text": "GeoVisual Analytics: R methods\n\nsf package\n\nSimple Features for R\nReading, Writing and Converting Simple Features\nManipulating Simple Feature Geometries\nManipulating Simple Features\nPlotting Simple Features\nMiscellaneous\nSpherical geometry in sf using s2geometry\n\n\n\nraster package\n\nraster reference\nraster package\n\n\n\nstars\n\nstars reference\nSpatiotemporal Arrays: Raster and Vector Datacubes\nIntroduction\nstars tidyverse methods\nStatistical modelling with stars objects\n\n\n\ntmap package\n\ntmap reference\ntmap: get started!\ntmap: what is changed in recent versions?\nTennekes, M., (2018)tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39.\n\n\n\nmicromap package\n\nmicromap provides functions simplifies the creation of linked micromap plots.\nLinked Micromaps\n\n\n\ngeofacet package\n\ngeofacet provides geofaceting functionality for ggplot2. Geofaceting arranges a sequence of plots of data for different geographical entities into a grid that strives to preserve some of the original geographical orientation of the entities.\nIntroduction to geofacet"
   }
 ]
