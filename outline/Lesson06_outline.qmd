@@ -22,7 +22,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 6: Visual Multivariate Analysis](../lesson/Lesson05/Lesson05-VMA.html) slides
+-   [Lesson 6: Visual Multivariate Analysis](../lesson/Lesson06/Lesson06-VMA.html) slides
 
 -   Hands-on Exercises
 
