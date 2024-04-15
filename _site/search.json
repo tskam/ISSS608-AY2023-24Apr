@@ -2462,5 +2462,173 @@
     "title": "The Epilogue",
     "section": "Things end but memories last forever!",
     "text": "Things end but memories last forever!"
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html",
+    "href": "take-home_ex/TH_EX01.html",
+    "title": "Take-home Exercise 1",
+    "section": "",
+    "text": "Creating data visualisation beyond default"
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html#setting-the-scene",
+    "href": "take-home_ex/TH_EX01.html#setting-the-scene",
+    "title": "Take-home Exercise 1",
+    "section": "Setting the Scene",
+    "text": "Setting the Scene\nSingapore is a city-state with limited land resource. Housing, on the other hand, is one of the basic need of people of this city-state. In order to ensure that all citizen in the country can access to affordable housing, the government have initiated massive public housing programme since independent. However, the is a income ceilling for"
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html#the-task",
+    "href": "take-home_ex/TH_EX01.html#the-task",
+    "title": "Take-home Exercise 1",
+    "section": "The Task",
+    "text": "The Task\nAssuming the role of a graphical editor of a median company, you are requested to prepare minimum two and maximum three data visualisation to reveal the private residential market and sub-markets of Singapore for the 1st quarter of 2024."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html#the-data",
+    "href": "take-home_ex/TH_EX01.html#the-data",
+    "title": "Take-home Exercise 1",
+    "section": "The Data",
+    "text": "The Data\nTo accomplish the task, transaction data of REALIS will be used. A complete set of the private residential property transaction data from 1st January 2023 to 31st March 2024 have been downloaded via SMU e-library database service. It is available on the Assignment -&gt; Take-home Exercise 1.\nFor student who are interested to download the data by yourself, please feel free to visit SMU e-library."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html#the-designing-tool",
+    "href": "take-home_ex/TH_EX01.html#the-designing-tool",
+    "title": "Take-home Exercise 1",
+    "section": "The Designing Tool",
+    "text": "The Designing Tool\nThe data should be processed by using appropriate tidyverse family of packages and the statistical graphics must be prepared using ggplot2 and its extensions."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html#the-write-up",
+    "href": "take-home_ex/TH_EX01.html#the-write-up",
+    "title": "Take-home Exercise 1",
+    "section": "The Write-up",
+    "text": "The Write-up\nThe write-up of the take-home exercise should include but not limited to the followings:\n\nA reproducible description of the procedures used to prepare the analytical visualisation. Please refer to the senior submission I shared below.\nA write-up of not more than 150 words per each data visualisation, describing and discussing the patterns and/or trends reveal by each visualisation prepared."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html#submission-date",
+    "href": "take-home_ex/TH_EX01.html#submission-date",
+    "title": "Take-home Exercise 1",
+    "section": "Submission date",
+    "text": "Submission date\nYour completed take-home exercise is due on 21st April 2024 (Sunday), by 11:59pm mid-night."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html#learning-from-senior",
+    "href": "take-home_ex/TH_EX01.html#learning-from-senior",
+    "title": "Take-home Exercise 1",
+    "section": "Learning from senior",
+    "text": "Learning from senior\n\nKYLIE TAN JING YI\nTOA ZI YING JANET\nLEW YING ZHEN SERENA"
+  },
+  {
+    "objectID": "take-home_ex/TH_EX01.html#peer-learning",
+    "href": "take-home_ex/TH_EX01.html#peer-learning",
+    "title": "Take-home Exercise 1",
+    "section": "Peer Learning",
+    "text": "Peer Learning"
+  },
+  {
+    "objectID": "take-home_ex/TH_EX04.html",
+    "href": "take-home_ex/TH_EX04.html",
+    "title": "Take-home Exercise 4: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "",
+    "text": "Prototyping is crucial\n\n\n\nPrototyping first may help keep you from investing far too much time for marginal gains.\nThe Art of UNIX Programming (Raymond 2003)"
+  },
+  {
+    "objectID": "take-home_ex/TH_EX04.html#the-task",
+    "href": "take-home_ex/TH_EX04.html#the-task",
+    "title": "Take-home Exercise 4: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "The Task",
+    "text": "The Task\nIn this take-home exercise, you are required to select one of the module of your proposed Shiny application and complete the following tasks:\n\nTo evaluate and determine the necessary R packages needed for your Shiny application are supported in R CRAN,\nTo prepare and test the specific R codes can be run and returned the correct output as expected,\nTo determine the parameters and outputs that will be exposed on the Shiny applications, and\nTo select the appropriate Shiny UI components for exposing the parameters determine above.\n\nAll teams must consult the prototype page of AY2022-2023 January Term Group 3: Tanzania Tourism Analysis. There are three main modules in ths application the are: Exploratory Data Analysis & Confirmatory Data Analysis, Cluster Analysis and Decision Tree Analysis. Each of them were prepared by one of the member of the project team. After that they combined them into the Prototype page of their project website.\nTake-home Exercise 4 will be similar to one of the prototype module prepared above in term of content but with the following differences:\n\nYou are required to prepare the prototype module report as Take-home Exercise 4 submission. This mean, it has to be published on your own coursework page.\nYou are required to include a section called UI design for the different components of the UIs for the proposed design.\n\nFor storyboarding the UI Design, please consult Storyboard link."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX04.html#submission-instructions",
+    "href": "take-home_ex/TH_EX04.html#submission-instructions",
+    "title": "Take-home Exercise 4: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\nThe specific submission instructions are as follows:\n\nThe analytical visualisation must be prepared by using R and appropriate R packages. The report must provide detail discussion and explanation of:\n\nthe data preparation process,\nthe selection of data visualisation techniques used,\nand the data visualisation design and interactivity principles and best practices implemented.\n\nThe write-up of the take-home exercise must be in Quarto html document format and publish on Netlify."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX04.html#submission-date",
+    "href": "take-home_ex/TH_EX04.html#submission-date",
+    "title": "Take-home Exercise 4: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Submission date",
+    "text": "Submission date\nYour completed take-home exercise is due on 10th March 2024, by 11:59pm evening.\n\n\n\n\n\n\nWarning\n\n\n\nStudents are strongly recommended to complete Take-home Exercise 4 ahead of the submission deadline. This will allow you to have more time to focus on the building of the Shiny application and to iterate the usability of the application."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX04.html#peer-learning",
+    "href": "take-home_ex/TH_EX04.html#peer-learning",
+    "title": "Take-home Exercise 4: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Peer Learning",
+    "text": "Peer Learning"
+  },
+  {
+    "objectID": "take-home_ex/TH_EX02.html",
+    "href": "take-home_ex/TH_EX02.html",
+    "title": "Take-home Exercise 2: DataVis Makeover",
+    "section": "",
+    "text": "DataVis Makeover\n\n\n\nThe purpose of the makeover is to improve on the original visualisation. Focus on what works, what doesn’t work, why those things don’t work, and how you made it better. You should try stick to the fields in the data set provided and improve upon the original visualisation. However, if supplementing the data helps you tell a better story, go for it!"
+  },
+  {
+    "objectID": "take-home_ex/TH_EX02.html#the-task",
+    "href": "take-home_ex/TH_EX02.html#the-task",
+    "title": "Take-home Exercise 2: DataVis Makeover",
+    "section": "The Task",
+    "text": "The Task\nIn this take-home exercise, you are required to:\n\nselect one of the Take-home Exercise 1 prepared by your classmate,\ncritic the submission in terms of clarity and aesthetics,\nprepare a sketch for the alternative design by using the data visualisation design principles and best practices you had learned in Lesson 1 and 2, and\nremake the original design by using ggplot2, ggplot2 extensions and tidyverse packages."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX02.html#submission-instructions",
+    "href": "take-home_ex/TH_EX02.html#submission-instructions",
+    "title": "Take-home Exercise 2: DataVis Makeover",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\nThe specific submission instructions are as follows:\n\nThe analytical visualisation must be prepared by using R and appropriate R packages.\nThe write-up of the take-home exercise must be in Quarto html document format. You are required to publish the write-up on Netlify."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX02.html#submission-date",
+    "href": "take-home_ex/TH_EX02.html#submission-date",
+    "title": "Take-home Exercise 2: DataVis Makeover",
+    "section": "Submission date",
+    "text": "Submission date\nYour completed take-home exercise is due on 28th January 2024, by 11:59pm evening."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX03.html",
+    "href": "take-home_ex/TH_EX03.html",
+    "title": "Take-home Exercise 3: Be Weatherwise or Otherwise",
+    "section": "",
+    "text": "According to an office report as shown in the infographic below,\n\nDaily mean temperature are projected to increase by 1.4 to 4.6, and\nThe contrast between the wet months (November to January) and dry month (February and June to September) is likely to be more pronounced.\n\n\nAs a visual analytics greenhorn, you are keen to apply newly acquired visual interactivity and visualising uncertainty methods to validate the claims presented above."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX03.html#overview",
+    "href": "take-home_ex/TH_EX03.html#overview",
+    "title": "Take-home Exercise 3: Be Weatherwise or Otherwise",
+    "section": "",
+    "text": "According to an office report as shown in the infographic below,\n\nDaily mean temperature are projected to increase by 1.4 to 4.6, and\nThe contrast between the wet months (November to January) and dry month (February and June to September) is likely to be more pronounced.\n\n\nAs a visual analytics greenhorn, you are keen to apply newly acquired visual interactivity and visualising uncertainty methods to validate the claims presented above."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX03.html#the-task",
+    "href": "take-home_ex/TH_EX03.html#the-task",
+    "title": "Take-home Exercise 3: Be Weatherwise or Otherwise",
+    "section": "The Task",
+    "text": "The Task\nIn this take-home exercise, you are required to:\n\nSelect a weather station and download historical daily temperature or rainfall data from Meteorological Service Singapore website,\nSelect either daily temperature or rainfall records of a month of the year 1983, 1993, 2003, 2013 and 2023 and create an analytics-driven data visualisation,\nApply appropriate interactive techniques to enhance the user experience in data discovery and/or visual story-telling."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX03.html#submission-instructions",
+    "href": "take-home_ex/TH_EX03.html#submission-instructions",
+    "title": "Take-home Exercise 3: Be Weatherwise or Otherwise",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\nThe specific submission instructions are as follows:\n\nThe analytical visualisation must be prepared by using R and appropriate R packages. The report must provide detail discussion and explanation of:\n\nthe data preparation process,\nthe selection of data visualisation techniques used,\nand the data visualisation design and interactivity principles and best practices implemented.\n\nThe write-up of the take-home exercise must be in Quarto html document format and publish on Netlify."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX03.html#submission-date",
+    "href": "take-home_ex/TH_EX03.html#submission-date",
+    "title": "Take-home Exercise 3: Be Weatherwise or Otherwise",
+    "section": "Submission date",
+    "text": "Submission date\nYour completed take-home exercise is due on 18th February 2024, by 11:59pm evening."
+  },
+  {
+    "objectID": "take-home_ex/TH_EX03.html#peer-learning",
+    "href": "take-home_ex/TH_EX03.html#peer-learning",
+    "title": "Take-home Exercise 3: Be Weatherwise or Otherwise",
+    "section": "Peer Learning",
+    "text": "Peer Learning\n\nALEXEI JASON\nCAI JINGHENG\nCHAI ZHIXUAN\nCHEN HAOYE ROGER\nCHEN JINGHAN\nCHOCK WAN KEE\nCHOW HUI LING\nCHRISSANDRO\nCI HUI\nCOLIN JIANG KELIN\nDU YEBIN\nFREDDIE JR. NGO TAN\nFU WEIMING\nGAO YA\nGOH SI HUI\nIMRAN BIN MOHD IBRAHIM\nKANYAPAK BUATHANG\nKOCK SI MIN\nKYLIE TAN JING YI  Have done exceptionally well to ensure that the processes are reproducible. Able to design elegant and yet functional data visualisation. Able to apply interactivity effectively.\nLEE YUEH ERN SHANNON\nLEW YING ZHEN SERENA  Have done exceptionally well to ensure that the processes are reproducible. Putting the methods of visualising uncertainty and ggstatsplot into good used.Able to apply the functional data visualisation. Able to apply interactivity appropriately.\nLI JIAYI\nLI ZHONGCHAO\nLIM JIA JIA\nMARY VANESSA HENG HUI KHIM\nMICHAEL BERLIAN\nMOHAMED FIRDAUS BIN MOHD GHAZALI\nMUHAMMAD RIZQI FEBRIANSYAH\nNEO LI XIAN VICTORIA ANNE\nNOEL NG SER YING\nRACHEL YEE RUI MIN\nSHAO GUYUE\nSUN YIPING\nTAAM YIN KWAN EUNICE\nTEO SUAN ERN\nTOA ZI YING JANET\nWAN HONGLU\nWANG YALING\nWANG YIZAO\n\nWEI YANRUI\nWONG NGAI MUNN ZACHARY MARK\nXU LIN\nZHANG SHUJIE\nZHAO XINYUE\nZHENG KAIXIN\nZHOU RUOSONG"
   }
 ]
