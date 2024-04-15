@@ -12,7 +12,7 @@ editor: visual
 
 ## Setting the Scene
 
-There are two major residential property market in Singapore, namely public and private housing.  Public housing aims to meet the basic need of the general public with monthly $14,000 for families/couples buying a new HDB flat. are is a city-state with limited land resource.  Housing, on the other hand, is one of the basic need of people of this city-state.  In order to ensure that all citizen in the country can access to affordable housing, the government have initiated massive public housing programme since independent.  However, there are   
+There are two major residential property market in Singapore, namely public and private housing.  Public housing aims to meet the basic need of the general public with monthly household income less than or equal to S$14,000.  For families with monthly household income more than S$14,000, they need to turn to the private residential market.   
 
 
 
