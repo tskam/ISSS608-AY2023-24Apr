@@ -12,19 +12,17 @@ editor: visual
 
 ## Setting the Scene
 
-There are two major residential property market in Singapore, namely public and private housing.  Public housing aims to meet the basic need of the general public with monthly household income less than or equal to S$14,000.  For families with monthly household income more than S$14,000, they need to turn to the private residential market.   
-
-
+There are two major residential property market in Singapore, namely public and private housing. Public housing aims to meet the basic need of the general public with monthly household income less than or equal to S\$14,000. For families with monthly household income more than S\$14,000, they need to turn to the private residential market.
 
 ## The Task
 
-Assuming the role of a graphical editor of a median company, you are requested to prepare minimum two and maximum three data visualisation to reveal the private residential market and sub-markets of Singapore for the 1st quarter of 2024. 
+Assuming the role of a graphical editor of a median company, you are requested to prepare minimum two and maximum three data visualisation to reveal the private residential market and sub-markets of Singapore for the 1st quarter of 2024.
 
 ## The Data
 
-To accomplish the task, transaction data of [REALIS](https://www.ura.gov.sg/reis/index) will be used.  A complete set of the private residential property transaction data from 1st January 2023 to 31st March 2024 have been downloaded via SMU e-library database service.  It is available on the *Assignment -> Take-home Exercise 1* of eLearn. 
+To accomplish the task, transaction data of [REALIS](https://www.ura.gov.sg/reis/index) will be used. A complete set of the private residential property transaction data from 1st January 2023 to 31st March 2024 have been downloaded via SMU e-library database service. It is available on the *Assignment -\> Take-home Exercise 1* of eLearn.
 
-For student who are interested to download the data by yourself, please feel free to visit SMU e-library.  
+For student who are interested to download the data by yourself, please feel free to visit SMU e-library.
 
 ## The Designing Tool
 
@@ -52,7 +50,7 @@ The specific submission instructions are as follows:
 
 ## Submission date
 
-Your completed take-home exercise is due on **21st April 2024 (Sunday), by 11:59pm mid-night**.
+Your completed take-home exercise is due on ~~**21st April 2024 (Sunday)**~~ **26th April 2024 (Friday) by 11:59pm mid-night**.
 
 ## Learning from senior
 
@@ -67,4 +65,3 @@ Your completed take-home exercise is due on **21st April 2024 (Sunday), by 11:59
 -   [URA releases flash estimate of 1st Quarter 2024 private residential property price index](https://www.ura.gov.sg/Corporate/Media-Room/Media-Releases/pr24-11)
 -   [Unsold private housing stock on the rise ahead of ramp-up in new launches in 2024](https://www.businesstimes.com.sg/property/unsold-private-housing-stock-rise-ahead-ramp-new-launches-2024)
 -   [HDB resale prices rise 1.7%; private home prices up 1.5% in first quarter: Flash estimates](https://www.channelnewsasia.com/singapore/hdb-resale-private-home-prices-rise-waiting-period-property-analysts-4233876)
-
