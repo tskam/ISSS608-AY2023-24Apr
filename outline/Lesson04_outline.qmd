@@ -27,7 +27,6 @@ editor: visual
 -   [Lesson 4: Fundamentals of Visual Analytics](../lesson/Lesson04/Lesson04-Fundamentals%20of%20Visual%20Analytics.html) slides
 
 -   Hands-on Exercises
-
     -   [Hands-on Exercise 4: Visual Statistical Analysis](https://r4va.netlify.app/chap10)
     -   [Hands-on Exercise 4: Visualising Uncertainty](https://r4va.netlify.app/chap11)
     -   [Hands-on Exercise 4: Building Funnel Plot with R](https://r4va.netlify.app/chap12)
