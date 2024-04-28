@@ -2573,7 +2573,7 @@
     "href": "take-home_ex/TH_EX02.html#the-task",
     "title": "Take-home Exercise 1 Part 2: DataVis Makeover",
     "section": "The Task",
-    "text": "The Task\nIn this take-home exercise, you are required to:\n\nselect one of the Take-home Exercise 1 submission prepared by your classmate,\ncritic the submission in terms of clarity and aesthetics,\nprepare a sketch for the alternative design by using the data visualisation design principles and best practices you had learned in Lesson 1 and 2.\nremake the original design by using ggplot2, ggplot2 extensions and tidyverse packages."
+    "text": "The Task\nIn this take-home exercise, you are required to:\n\nselect one data visualisation from the Take-home Exercise 1 submission prepared by your classmate,\ncritic the submission in terms of clarity and aesthetics,\nprepare a sketch for the alternative design by using the data visualisation design principles and best practices you had learned in Lesson 1 and 2.\nremake the original design by using ggplot2, ggplot2 extensions and tidyverse packages."
   },
   {
     "objectID": "take-home_ex/TH_EX02.html#submission-instructions",
