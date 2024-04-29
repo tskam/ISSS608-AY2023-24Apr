@@ -2,7 +2,11 @@
 title: "Lesson 4: Fundamentals of Visual Analytics"
 date: "April 7, 2024"
 date-modified: "last-modified"
-format: html
+format: 
+  html:
+    theme: materia
+    fontsize: 1.2em
+    toc-font-size: 0.8emhtml
 editor: visual
 ---
 
@@ -27,6 +31,7 @@ editor: visual
 -   [Lesson 4: Fundamentals of Visual Analytics](../lesson/Lesson04/Lesson04-Fundamentals%20of%20Visual%20Analytics.html) slides
 
 -   Hands-on Exercises
+
     -   [Hands-on Exercise 4: Visual Statistical Analysis](https://r4va.netlify.app/chap10)
     -   [Hands-on Exercise 4: Visualising Uncertainty](https://r4va.netlify.app/chap11)
     -   [Hands-on Exercise 4: Building Funnel Plot with R](https://r4va.netlify.app/chap12)

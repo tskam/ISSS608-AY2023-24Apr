@@ -54,6 +54,8 @@ website:
 format:
   html:
     theme: flatly
+    fontsize: 1.2em
+    toc-font-size: 0.8em
     css: styles.css
     toc: true
 
