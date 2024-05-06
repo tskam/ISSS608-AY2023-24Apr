@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-02-02">
+<meta name="dcterms.date" content="2024-05-05">
 
-<title>ISSS608 - Take-home Exercise 3: Be Weatherwise or Otherwise</title>
+<title>ISSS608 - Take-home Exercise 3</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -200,11 +200,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#the-task" id="toc-the-task" class="nav-link" data-scroll-target="#the-task">The Task</a></li>
+  <li><a href="#the-task" id="toc-the-task" class="nav-link active" data-scroll-target="#the-task">The Task</a></li>
+  <li><a href="#assessment-rubic" id="toc-assessment-rubic" class="nav-link" data-scroll-target="#assessment-rubic">Assessment Rubic</a></li>
   <li><a href="#submission-instructions" id="toc-submission-instructions" class="nav-link" data-scroll-target="#submission-instructions">Submission Instructions</a></li>
   <li><a href="#submission-date" id="toc-submission-date" class="nav-link" data-scroll-target="#submission-date">Submission date</a></li>
-  <li><a href="#peer-learning" id="toc-peer-learning" class="nav-link" data-scroll-target="#peer-learning">Peer Learning</a></li>
+  <li><a href="#kickstarter" id="toc-kickstarter" class="nav-link" data-scroll-target="#kickstarter">KickStarter</a></li>
+  <li><a href="#learning-from-senior" id="toc-learning-from-senior" class="nav-link" data-scroll-target="#learning-from-senior">Learning from Senior</a></li>
   </ul>
 </nav>
     </div>
@@ -213,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Take-home Exercise 3: Be Weatherwise or Otherwise</h1>
+<h1 class="title">Take-home Exercise 3</h1>
 </div>
 
 
@@ -224,14 +225,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 2, 2024</p>
+      <p class="date">May 5, 2024</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 23, 2024</p>
+      <p class="date-modified">May 7, 2024</p>
     </div>
   </div>
     
@@ -242,93 +243,80 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>According to an office report as shown in the infographic below,</p>
-<ul>
-<li>Daily mean temperature are projected to increase by 1.4 to 4.6, and</li>
-<li>The contrast between the wet months (November to January) and dry month (February and June to September) is likely to be more pronounced.</li>
-</ul>
-<p><img src="img/Climate_change.jpg" class="img-fluid"></p>
-<p>As a visual analytics greenhorn, you are keen to apply newly acquired visual interactivity and visualising uncertainty methods to validate the claims presented above.</p>
-</section>
 <section id="the-task" class="level2">
 <h2 class="anchored" data-anchor-id="the-task">The Task</h2>
-<p>In this take-home exercise, you are required to:</p>
+<p>In this take-home exercise, you are required apply appropriate visual analytics methods to help FishEye, a non-profit organization that focuses on illegal fishing, to better identify bias, track behavior changes, and infer temporal patterns from the knowledge graphs prepared by their data analysts.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>Select a weather station and download <a href="http://www.weather.gov.sg/climate-historical-daily/">historical daily temperature or rainfall data</a> from <a href="http://www.weather.gov.sg/home/">Meteorological Service Singapore</a> website,</li>
-<li>Select either daily temperature or rainfall records of a month of the year 1983, 1993, 2003, 2013 and 2023 and create an analytics-driven data visualisation,</li>
-<li>Apply appropriate interactive techniques to enhance the user experience in data discovery and/or visual story-telling.</li>
+<li>You only need to attempt either <strong>one out of the three Mini Cases</strong> (i.e.&nbsp;<a href="https://vast-challenge.github.io/2024/MC1.html">MC1</a>, <a href="https://vast-challenge.github.io/2024/MC2.html">MC2</a>, <a href="https://vast-challenge.github.io/2024/MC3.html">MC3</a>) or <a href="https://vast-challenge.github.io/2024/GC.html">Grand Challenge</a> provided in <a href="https://vast-challenge.github.io/2024/">VAST Challenge 2024</a>.</li>
+<li>The data should be processed by using appropriate <strong>tidyverse</strong> family of packages and the Visual Analytics tools must be prepared by using appropriate R packages.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="assessment-rubic" class="level2">
+<h2 class="anchored" data-anchor-id="assessment-rubic">Assessment Rubic</h2>
+<ul>
+<li>Quality of Visual Storytelling (30%): Ability to provide visually-driven discussions and answers on the tasks and questions chosen.</li>
+<li>Quality of Data Visualisation (30%): Appropriateness, functional and aesthetics of the data visualisation used.</li>
+<li>Quality of Data Preparation and Wrangling (20%): Appropriateness and proficiency of using tidyverse and other related R packages to prepare and wrangle the data.</li>
+<li>Quality of Reproducibility (20%): Completeness and comprehensiveness of documenting the data visualisation process including and not limited to data import, data preparation, data wrangling, data integration and data visualisation design.</li>
 </ul>
 </section>
 <section id="submission-instructions" class="level2">
 <h2 class="anchored" data-anchor-id="submission-instructions">Submission Instructions</h2>
 <p>This is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>The specific submission instructions are as follows:</p>
 <ul>
-<li>The analytical visualisation must be prepared by using <strong>R and appropriate R packages</strong>. The report must provide detail discussion and explanation of:
-<ul>
-<li>the data preparation process,</li>
-<li>the selection of data visualisation techniques used,</li>
-<li>and the data visualisation design and interactivity principles and best practices implemented.</li>
-</ul></li>
-<li>The write-up of the take-home exercise must be in <strong>Quarto html document</strong> format and publish on <strong>Netlify</strong>.</li>
+<li>The write-up of the take-home exercise must be in <strong>Quarto html document</strong> format. You are required to publish the write-up on <a href="https://www.netlify.com/"><strong>Netlify</strong></a>.</li>
+<li>Provide the links to the Take-home Exercise write-up and github repository onto eLearn (i.e.&nbsp;Take-home Exercise section)</li>
 </ul>
+</div>
+</div>
 </section>
 <section id="submission-date" class="level2">
 <h2 class="anchored" data-anchor-id="submission-date">Submission date</h2>
-<p>Your completed take-home exercise is due on <strong>18th February 2024, by 11:59pm evening</strong>.</p>
+<p>Your completed take-home exercise is due on <strong>2nd June 2024, by 11:59 mid-night</strong>.</p>
 </section>
-<section id="peer-learning" class="level2">
-<h2 class="anchored" data-anchor-id="peer-learning">Peer Learning</h2>
+<section id="kickstarter" class="level2">
+<h2 class="anchored" data-anchor-id="kickstarter">KickStarter</h2>
 <ul>
-<li><a href="https://isss608-ajason.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">ALEXEI JASON</a></li>
-<li><a href="https://isss608cjh.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">CAI JINGHENG</a></li>
-<li><a href="https://czx-isss608.netlify.app/take_home_ex/take_home_ex03/take_home_ex03">CHAI ZHIXUAN</a></li>
-<li><a href="https://isss608rogerchen.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">CHEN HAOYE ROGER</a></li>
-<li><a href="https://isss608-jinghan.netlify.app/take-home_ex/take-home_ex3/take-home_ex3">CHEN JINGHAN</a></li>
-<li><a href="https://chockwk-visual-analytics.netlify.app/exercises/th3/th3">CHOCK WAN KEE</a></li>
-<li><a href="">CHOW HUI LING</a></li>
-<li><a href="https://isss608-chrixus.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">CHRISSANDRO</a></li>
-<li><a href="https://isss608-hci.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">CI HUI</a></li>
-<li><a href="https://isss608-ay2324-janterm.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">COLIN JIANG KELIN</a></li>
-<li><a href="">DU YEBIN</a></li>
-<li><a href="https://isss608-ay2023-24t2-ftj72.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">FREDDIE JR. NGO TAN</a></li>
-<li><a href="https://isss608-ay2023-24t2-wm.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">FU WEIMING</a></li>
-<li><a href="https://isss608-ay2024-gaoya.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">GAO YA</a></li>
-<li><a href="https://gsh-vaa.netlify.app/take-home_ex/take-home_ex03/take-home_ex03b">GOH SI HUI</a></li>
-<li><a href="https://imranmi-isss608-jan24.netlify.app/take-home-ex/take-home-ex3/take-home_ex3">IMRAN BIN MOHD IBRAHIM</a></li>
-<li><a href="https://kbuathang-isss608-vaa.netlify.app/take-home_ex/take-home_ex3/take-home_ex3">KANYAPAK BUATHANG</a></li>
-<li><a href="https://isss608-ksm.netlify.app/take-home_ex/take-home_ex3/take-home_ex3">KOCK SI MIN</a></li>
-<li><a href="https://akalestale.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">KYLIE TAN JING YI</a> <img src="img/thumbup1.jpg" class="img-fluid"> Have done exceptionally well to ensure that the processes are reproducible. Able to design elegant and yet functional data visualisation. Able to apply interactivity effectively.</li>
-<li><a href="https://isss608-shannon.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">LEE YUEH ERN SHANNON</a></li>
-<li><a href="https://isss608-spacebun.netlify.app/take-home_ex/take-home_ex3/take-home_ex3">LEW YING ZHEN SERENA</a> <img src="img/thumbup1.jpg" class="img-fluid"> Have done exceptionally well to ensure that the processes are reproducible. Putting the methods of visualising uncertainty and ggstatsplot into good used.Able to apply the functional data visualisation. Able to apply interactivity appropriately.</li>
-<li><a href="https://isss608-24jan-jiayili.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">LI JIAYI</a></li>
-<li><a href="https://isss608-ay2024t2-lzc.netlify.app/take-home_ex/take-home_ex03/take-home_ex3">LI ZHONGCHAO</a></li>
-<li><a href="https://jiajialim-isss608.netlify.app/take-home_ex/take-home_ex3/take-home_ex3">LIM JIA JIA</a></li>
-<li><a href="https://isss608-vaa-mvheng.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">MARY VANESSA HENG HUI KHIM</a></li>
-<li><a href="https://isss608-mb.netlify.app/take-home_ex/take-home_ex3/take-home_ex3">MICHAEL BERLIAN</a></li>
-<li><a href="">MOHAMED FIRDAUS BIN MOHD GHAZALI</a></li>
-<li><a href="https://isss608-ay2024-rizfebriansyah.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">MUHAMMAD RIZQI FEBRIANSYAH</a></li>
-<li><a href="https://iss608-vaa-victorianeo.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">NEO LI XIAN VICTORIA ANNE</a></li>
-<li><a href="https://isss608-noelng.netlify.app/take_home_ex/take_home_ex03/take_home_ex03">NOEL NG SER YING</a></li>
-<li><a href="https://isss608-rachyrm.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">RACHEL YEE RUI MIN</a></li>
-<li><a href="">SHAO GUYUE</a></li>
-<li><a href="https://isss608-mitbsunyp.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">SUN YIPING</a></li>
-<li><a href="https://eunicet608.netlify.app/take_home_exercise/take_home_ex03/take_home_ex03">TAAM YIN KWAN EUNICE</a></li>
-<li><a href="https://isss608-ay2024-suanern.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">TEO SUAN ERN</a></li>
-<li><a href="https://janettoaisss608.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">TOA ZI YING JANET</a></li>
-<li><a href="https://whlmitbisss608.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">WAN HONGLU</a></li>
-<li><a href="https://isss608-vaa-wyaling.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">WANG YALING</a></li>
-<li><a href="">WANG YIZAO</a><br>
-</li>
-<li><a href="https://wyr-isss608.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">WEI YANRUI</a></li>
-<li><a href="https://isss608-ay2023-24t1-zach.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">WONG NGAI MUNN ZACHARY MARK</a></li>
-<li><a href="https://isss608-xulin.netlify.app/take%20home%20exercise%203/take%20home%20exercise%203.html">XU LIN</a></li>
-<li><a href="https://isss608-ay2023-suzyzsj.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">ZHANG SHUJIE</a></li>
-<li><a href="https://isss608-ay2023-24t2.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">ZHAO XINYUE</a></li>
-<li><a href="https://isss608-kaixin.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">ZHENG KAIXIN</a></li>
-<li><a href="https://isss608-ay2022-2023t4.netlify.app/take-home_ex/take-home_ex03/take-hone_ex03">ZHOU RUOSONG</a></li>
+<li>KickStarter of Take-home Exercise 3 in <a href="TH_Ex03/MC3-Kick-starter.html">html</a> format.</li>
+</ul>
+</section>
+<section id="learning-from-senior" class="level2">
+<h2 class="anchored" data-anchor-id="learning-from-senior">Learning from Senior</h2>
+<ul>
+<li><a href="https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_GUAN_YIFEI">ISSS608 2016-17 T3 Assign GUAN YIFEI</a>. Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.</li>
+<li><a href="https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_ZHANG_YANRONG">ISSS608 2016-17 T3 Assign ZHANG YANRONG</a>. Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.</li>
+<li><a href="https://isss608-jordan-va.netlify.app/th_ex6/th_ex6.html">ISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan</a></li>
+<li><a href="https://isss608-raunakkapur.netlify.app/th_ex/the6">ISSS608 2021-22 April Term Assignment 6: Raunak Kapur</a></li>
+</ul>
+<p><strong>AY2022-23 April Term</strong></p>
+<ul>
+<li><a href="https://smu-isss608-vaa.netlify.app/take-home_ex/take-home_ex03/take-home_ex03#overview">ONG CHAE HUI</a></li>
+<li><a href="https://cosmic-boon.netlify.app/take-home_ex/take-home_ex03/take-home_ex3">KWA KAH BOON</a></li>
+<li><a href="https://fongbx-isss608-visual-analytics.netlify.app/take-home%20ex/take-home_ex03/take-home_ex03">FONG BAO XIAN</a></li>
+<li><a href="https://isss608-ay2023-haileycsy.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">HAILEY CHEONG SZE-YENN</a></li>
 </ul>
 
 
