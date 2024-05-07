@@ -1,8 +1,8 @@
 ---
-title: "Lesson 9: </br>Visualising and Analysing Text Data"
+title: "Lesson 5: </br>Visualising and Analysing Text Data"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems (Practice)"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
-date: "January 5, 2024"
+date: "May 7, 2024"
 format: 
   revealjs:
     width: 1600
@@ -206,7 +206,7 @@ Reference: [Story Tracker: Incremental visual textanalytics of news story develo
 ### wordcloud
 
 -   Provides functionality to create pretty word clouds, visualize differences and similarity between documents, and avoid over-plotting in scatter plots with text.
--   Visit this[link](https://cran.r-project.org/web/packages/wordcloud/) for more information.
+-   Visit this [link](https://cran.r-project.org/web/packages/wordcloud/) for more information.
 
 ![](img/image10-21.jpg)
 

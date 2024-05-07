@@ -1,5 +1,5 @@
 ---
-title: "Lesson 9: Visualising and Analysing Text Data"
+title: "Lesson 5: Visualising and Analysing Text Data"
 date: "April 7, 2024"
 date-modified: "last-modified"
 format: html
@@ -21,9 +21,9 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 9: Visualising and Analysing Text Data](../lesson/Lesson09/Lesson09-TextVis.html) slides.
+-   [Lesson 5: Visualising and Analysing Text Data](../lesson/Lesson05/Lesson05-TextVis.html) slides.
 
--   [Hands-on Exercise 9: Visualising and Analysing Text Data]().
+-   [Hands-on Exercise 5: Visualising and Analysing Text Data](https://r4va.netlify.app/chap29).
 
 ## Readings
 

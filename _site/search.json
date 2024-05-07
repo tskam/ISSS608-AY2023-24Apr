@@ -912,30 +912,30 @@
   {
     "objectID": "outline/Lesson05_outline.html",
     "href": "outline/Lesson05_outline.html",
-    "title": "Lesson 6: Visual Multivariate Analysis",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
     "section": "",
-    "text": "Correlation Matrix\n\nCorrelogram\n\nMultivariate Data Visualisation\n\nternary plot\nGlyphs or Star Plot\nheatmap\nparallel coordinate plot\nparallel plot\n\nSpace-constrained visualization of hierarchies\n\nTreemaps\nSunburst diagram"
+    "text": "Introduction to text data and text visualisation\nText Visualisation methods:\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nText Visualisation in R\n\ntextplot\nLDAVis\nquanteda"
   },
   {
     "objectID": "outline/Lesson05_outline.html#content",
     "href": "outline/Lesson05_outline.html#content",
-    "title": "Lesson 6: Visual Multivariate Analysis",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
     "section": "",
-    "text": "Correlation Matrix\n\nCorrelogram\n\nMultivariate Data Visualisation\n\nternary plot\nGlyphs or Star Plot\nheatmap\nparallel coordinate plot\nparallel plot\n\nSpace-constrained visualization of hierarchies\n\nTreemaps\nSunburst diagram"
+    "text": "Introduction to text data and text visualisation\nText Visualisation methods:\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nText Visualisation in R\n\ntextplot\nLDAVis\nquanteda"
   },
   {
     "objectID": "outline/Lesson05_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson05_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 6: Visual Multivariate Analysis",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 5: Visual Multivariate Analysis slides\nHands-on Exercises\n\nBuilding Ternary Plot with R.\nVisual Correlation Analysis.\nVisual Multivariate Analysis with Heatmap.\nVisual Multivariate Analysis with Parallel Coordinates Plot.\nTreemap Visualisation with R"
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 5: Visualising and Analysing Text Data slides.\nHands-on Exercise 5: Visualising and Analysing Text Data."
   },
   {
     "objectID": "outline/Lesson05_outline.html#readings",
     "href": "outline/Lesson05_outline.html#readings",
-    "title": "Lesson 6: Visual Multivariate Analysis",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
     "section": "Readings",
-    "text": "Readings\n\nCore Readings\nMultivariate Methods\n\nAn Introduction to Visual Multivariate Analysis\nCorrgrams: Exploratory Displays for Correlation Matrices\nTernary Plot\nMultivariate Data Glyphs\nParallel Coordinates\nWikipedia: Heatmap\n\nTreemaps\n\nShneiderman, Ben (2008) Treemaps for space-constrained visualization of hierarchies\nExtending the Utility of Treemaps with Flexible Hierarchy\n\n\n\nOptional Readings\nMultivariate Methods\n\nThe scatter-plot matrix: a great tool\nA Graphical Display of Large Correlation Matrices\nTernary Diagram\nReading a Ternary Diagram\nMultidimensional Detective\nParallel Coordinates\nMultivariate Analysis Using Parallel Coordinates\nGhosts on the Radar — Why Radar Charts Are Easily Misread\nKeep Radar Graphs Below the Radar - Far Below\nA Critique of Radar Charts\nRadar: More Evil Than Pie\n\nTreemaps\n\nTreemaps\nDiscovering Business Intelligence Using Treemap Visualization\n10 Lessons in Treemap Design\nBederson, Benjamin B.; Shneiderman, Ben; Wattenberg, Martin (2002). Ordered and quantum treemaps: Making effective use of 2D space to display hierarchies. ACM Transactions on Graphics. 21 (4): 833.\nBruls, Mark; Huizing, Kees; van Wijk, Jarke J. (2000). Squarified treemaps. In de Leeuw, W.; van Liere, R. Data Visualization 2000: Proc. Joint Eurographics and IEEE TCVG Symp. on Visualization]\nUS Economic Census Treemap\nTreeCovery: Coordinated dual treemap visualization for exploring the Recovery Act\nJuice’s Stimulus Bill Explorer\nFundexplorer\nMap of the Market\nThe HIVE Group\nTruck Sales Slip, Tripping Up Chrysler\nNewsmap\nObama’s 2011 Budget Proposal: How It’s Spent"
+    "text": "Readings\n\nCore Readings\n\nFun with Text Visualization\nThe pros and cons of word clouds as visualizations"
   },
   {
     "objectID": "outline/Lesson05_outline.html#r-packages",
@@ -2721,5 +2721,47 @@
     "title": "Take-home Exercise 3",
     "section": "Reference",
     "text": "Reference\n\nAnalysis Without Data: Teaching Students to Tackle the VAST Challenge"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-TextVis.html#content",
+    "href": "lesson/Lesson05/Lesson05-TextVis.html#content",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "Content",
+    "text": "Content\n\nIntroduction Text Visualisation\n\nText data\n\nText Visualisation Methods\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nR Packages for Text Visualisation"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-TextVis.html#introduction-to-text-visualisation",
+    "href": "lesson/Lesson05/Lesson05-TextVis.html#introduction-to-text-visualisation",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "Introduction to Text Visualisation",
+    "text": "Introduction to Text Visualisation\nHistory of text"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-TextVis.html#text-visualisation-methods",
+    "href": "lesson/Lesson05/Lesson05-TextVis.html#text-visualisation-methods",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "Text Visualisation Methods",
+    "text": "Text Visualisation Methods\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-TextVis.html#wordle",
+    "href": "lesson/Lesson05/Lesson05-TextVis.html#wordle",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "Wordle",
+    "text": "Wordle\n\nA toy for generating “word clouds” from text that you provide"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-TextVis.html#r-packages-for-text-visualisation",
+    "href": "lesson/Lesson05/Lesson05-TextVis.html#r-packages-for-text-visualisation",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "R packages for Text Visualisation",
+    "text": "R packages for Text Visualisation\n\nggwordcloud: a word cloud geom for ggplot2\nTextPlot: An R package for Visualizing Text Data\ncorporaexplorer: An R package for dynamic exploration of text collections\nLDAvis: An R package for interactive topic model visualization"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-TextVis.html#references",
+    "href": "lesson/Lesson05/Lesson05-TextVis.html#references",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "References",
+    "text": "References\nCao, Nan and Cui, Weiwei (2016) Introduction to text visualization, Springer. This book is available at smu e-collection."
   }
 ]
