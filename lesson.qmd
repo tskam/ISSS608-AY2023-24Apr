@@ -12,10 +12,10 @@ editor: visual
 | 2      | 20/4 | SCIS1 SR B1-1 | [Designing Graphs to Enlighten](outline/Lesson02_outline.html)                |         |
 | 3      | 27/4 | SCIS1 SR B1-1 | [Interactivity in Visual Analytics](outline/Lesson03_outline.html)            |         |
 | 4      | 4/5  | SCIS1 SR B1-1 | [Fundamentals of Visual Analytics](outline/Lesson04_outline.html)             |         |
-| 5      | 11/5 | SCIS1 SR B1-1 | Designing Web-enabled Visual Analytics Application with Shiny                 |         |
+| 5      | 11/5 | SCIS1 SR B1-1 | [Visualising and Analysing Text Data](outline/Lesson05_outline.html)                 |         |
 | 6      | 18/5 | SCIS1 SR B1-1 | [Visual Multivariate Analysis](outline/Lesson06_outline.html)                 |         |
-|       | 25/5 |  | Recess week |         |
-| 7     | 1/6  | SCIS1 SR B1-1   |  [Visualising and Analysing Time-Oriented Data](outline/Lesson07_outline.html)    |         |
+|        | 25/5 |               | Recess week                                                                   |         |
+| 7      | 1/6  | SCIS1 SR B1-1 | [Visualising and Analysing Time-Oriented Data](outline/Lesson07_outline.html) |         |
 | 8      | 8/6  | SCIS1 SR B1-1 | [Visualising and Analysing Geographic Data](outline/Lesson08_outline.html)    |         |
 | 9      | 15/6 | SCIS1 SR B1-1 | [Network Data Visualisation and Analysis](outline/Lesson09_outline.html)      |         |
 | 10     | 22/6 | SCIS1 SR B1-1 | [Information Dashboard Design](outline/Lesson10_outline.html)                 |         |

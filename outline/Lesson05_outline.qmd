@@ -29,5 +29,5 @@ editor: visual
 
 ### Core Readings
 
--   [Fun with Text Visualization](http://campusguides.lib.utah.edu/content.php?pid=78288&sid=579667)
+-   [A beginner’s guide to using text in data visualization](https://flourish.studio/blog/text-in-data-visualization/)
 -   [The pros and cons of word clouds as visualizations](https://www.visioncritical.com/pros-and-cons-word-clouds-visualizations/)
