@@ -16,7 +16,7 @@ A project may involve developing new methods or implementing visual analytics sy
 
 ## Project Topic
 
-To Be Confirmed
+This term the topic of Visual Analytics Project will be based on [VAST Challenge 2024](https://vast-challenge.github.io/2024/index.html). The are three Mini Challenges and a Grand Challenge provided. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge.
 
 ## Project Management
 
@@ -36,7 +36,7 @@ The Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting
 ## Project Milestone
 
 -   Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.
--   Editing and publishing project proposal on Netlify latest by the end of **Week 6**.
+-   Editing and publishing project proposal on Netlify latest by the end of **26th May 2024 at 11:59pm (mid-night)**.
 -   Uploading project poster on eLearn by **26th June 2024 at 11:59pm (mid-night)**.
 -   Poster presentation: **29th June 2024, 2:00pm-3:30pm**
 -   Submission of final application, user guide, project poster and artifacts: **30th June 2024 by 11:59pm (mid-night)**
@@ -59,7 +59,7 @@ As a first step, you should create a project summary at the project website that
 
 ### Project proposal
 
-Each project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by **19th May 2024**.
+Each project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by **26th May 2024**.
 
 The project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.
 
@@ -149,6 +149,10 @@ Note that the following examples are for references purposes. You are urge to us
 -   [FishEye](https://vaa-groupfour.netlify.app/)
 
 ### AY2023-2024 January Term
+
+-   [The Alchemists](https://projectpisa.netlify.app/)
+-   [Weather Analytics](https://isss608-group9-weatheranalytics.shinyapps.io/shinyapp/)
+-   [Decoding Chaos](https://decoding-chaos.netlify.app/)
 
 # Q & A
 
