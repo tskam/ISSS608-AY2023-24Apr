@@ -1,5 +1,5 @@
 ---
-title: "Lesson 6: Visual Multivariate Analysis"
+title: "Lesson 9: Visual Multivariate Analysis"
 date: "April 7, 2024"
 date-modified: "last-modified"
 format: html
@@ -22,7 +22,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 6: Visual Multivariate Analysis](../lesson/Lesson06/Lesson06-VMA.html) slides
+-   [Lesson 9: Visual Multivariate Analysis](../lesson/Lesson06/Lesson06-VMA.html) slides
 
 -   Hands-on Exercises
 

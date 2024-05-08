@@ -1,5 +1,5 @@
 ---
-title: "Lesson 9: Network Data Visualisation and Analysis"
+title: "Lesson 6: Network Data Visualisation and Analysis"
 date: "April 7, 2024"
 date-modified: "last-modified"
 format: html
@@ -38,9 +38,9 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 9: Visualising and Analysing Network Data](../lesson/Lesson09/Lesson09-NetworkVis.html) slides
+-   [Lesson 6: Visualising and Analysing Network Data](../lesson/Lesson09/Lesson09-NetworkVis.html) slides
 
--   [Hands-on Exercise 9: Modelling, Visualising and Analysing Network Data with R](https://r4va.netlify.app/chap27).
+-   [Hands-on Exercise 6: Modelling, Visualising and Analysing Network Data with R](https://r4va.netlify.app/chap27).
 
 ## Readings
 
