@@ -1,5 +1,5 @@
 ---
-title: "Lesson 6: </br>Visual Multivariate Analysis"
+title: "Lesson 9: </br>Visual Multivariate Analysis"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems (Practice)"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
 date: "`r Sys.Date()`"
