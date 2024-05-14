@@ -16,7 +16,7 @@ A project may involve developing new methods or implementing visual analytics sy
 
 ## Project Topic
 
-This term the topic of Visual Analytics Project will be based on [VAST Challenge 2024](https://vast-challenge.github.io/2024/index.html). The are three Mini Challenges and a Grand Challenge provided. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge.
+This term the topic of Visual Analytics Project will be based on either [VAST Challenge 2024](https://vast-challenge.github.io/2024/index.html) or [ChinaVis Data Visualisation Competition](https://chinavis.org/2024/english/challenge_en.html). For VAST Challenge 2024, there are three Mini Challenges and a Grand Challenge provided.  On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge.
 
 ## Project Management
 
