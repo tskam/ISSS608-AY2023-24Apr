@@ -7,11 +7,11 @@ editor: visual
 
 ## The Task
 
-In this take-home exercise, you are required to apply appropriate visual analytics methods to: 
+In this take-home exercise, you are required to apply appropriate visual analytics methods to:
 
 -   help FishEye, a non-profit organization that focuses on illegal fishing, to better identify bias, track behavior changes, and infer temporal patterns from the knowledge graphs prepared by their data analysts, or
 -   help NorthClass intuitively perceive the learning status of learners and provide feasible suggestions for adjusting teaching strategies and course designs, or
--   to help DataInsight visualise and understand industry and geographical developments, and provide actionable recommendations for talent acquisition and job search decisions. 
+-   to help DataInsight visualise and understand industry and geographical developments, and provide actionable recommendations for talent acquisition and job search decisions.
 
 ::: callout-important
 -   You only need to attempt either **one out of the three Mini Cases** (i.e. [MC1](https://vast-challenge.github.io/2024/MC1.html), [MC2](https://vast-challenge.github.io/2024/MC2.html), [MC3](https://vast-challenge.github.io/2024/MC3.html)) or [Grand Challenge](https://vast-challenge.github.io/2024/GC.html) provided in [VAST Challenge 2024](https://vast-challenge.github.io/2024/) or **Data Analysis Inspires Wisdom: Time-Series Multivariate Education Data Visual Analytics Challenge** or **Insight into Recruitment Data: Multivariate Recruitment Data Visual Analytics Challenge** of [ChinaVis 2024](https://chinavis.org/2024/english/challenge_en.html).
@@ -38,11 +38,13 @@ The specific submission instructions are as follows:
 
 ## Submission date
 
-Your completed take-home exercise is due on **2nd June 2024, by 11:59 mid-night**.
+Your completed take-home exercise is due on ~~**2nd**~~ **9th June 2024, by 11:59 mid-night**.
 
 ## KickStarter
 
--   KickStarter of Take-home Exercise 3 in [html](TH_Ex03/MC3-Kick-starter.html) format.
+-   [Kickstarter 1: Working with Text Data]()
+-   [Kickstarter 2: Working with Graph Data](../VAST/kickstarter2.html)
+-   [Kickstarter 3: Working with Geographic Data]()
 
 ## Learning from Senior
 

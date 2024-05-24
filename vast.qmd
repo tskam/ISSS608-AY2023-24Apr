@@ -1,0 +1,10 @@
+---
+title: "VAST Challenge 2024 Kickstarter"
+date: "May 24, 2024"
+date-modified: "last-modified"
+format: html 
+---
+
+-   Working with Graph Data
+
+-   Working with Geographic Data

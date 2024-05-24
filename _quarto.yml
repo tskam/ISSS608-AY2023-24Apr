@@ -46,6 +46,8 @@ website:
           href: Quarto.html
         - text: "git and github"
           href: git.html
+        - text: "VAST Challenge 2024 Kickstarter"
+          href: vast.html
     - text: "Home"
       href: index.html
 
