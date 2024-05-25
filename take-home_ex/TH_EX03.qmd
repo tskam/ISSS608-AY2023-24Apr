@@ -42,7 +42,7 @@ Your completed take-home exercise is due on ~~**2nd**~~ **9th June 2024, by 11:5
 
 ## KickStarter
 
--   [Kickstarter 1: Working with Text Data]()
+-   [Kickstarter 1: Working with Text Data](../VAST/kickstarter1.html)
 -   [Kickstarter 2: Working with Graph Data](../VAST/kickstarter2.html)
 -   [Kickstarter 3: Working with Geographic Data]()
 

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-05-05">
+<meta name="dcterms.date" content="2024-05-24">
 
-<title>ISSS608 - Take-home Exercise 3</title>
+<title>ISSS608 - Kickstarter 1: Working with Text Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -200,13 +234,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-task" id="toc-the-task" class="nav-link active" data-scroll-target="#the-task">The Task</a></li>
-  <li><a href="#assessment-rubic" id="toc-assessment-rubic" class="nav-link" data-scroll-target="#assessment-rubic">Assessment Rubic</a></li>
-  <li><a href="#submission-instructions" id="toc-submission-instructions" class="nav-link" data-scroll-target="#submission-instructions">Submission Instructions</a></li>
-  <li><a href="#submission-date" id="toc-submission-date" class="nav-link" data-scroll-target="#submission-date">Submission date</a></li>
-  <li><a href="#kickstarter" id="toc-kickstarter" class="nav-link" data-scroll-target="#kickstarter">KickStarter</a></li>
-  <li><a href="#learning-from-senior" id="toc-learning-from-senior" class="nav-link" data-scroll-target="#learning-from-senior">Learning from Senior</a></li>
-  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
+  <li><a href="#importing-and-integrating-multiple-text-files" id="toc-importing-and-integrating-multiple-text-files" class="nav-link" data-scroll-target="#importing-and-integrating-multiple-text-files">Importing and Integrating Multiple Text Files</a></li>
+  <li><a href="#tidying-the-text-data" id="toc-tidying-the-text-data" class="nav-link" data-scroll-target="#tidying-the-text-data">Tidying the Text Data</a></li>
   </ul>
 </nav>
     </div>
@@ -215,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Take-home Exercise 3</h1>
+<h1 class="title">Kickstarter 1: Working with Text Data</h1>
 </div>
 
 
@@ -226,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 5, 2024</p>
+      <p class="date">May 24, 2024</p>
     </div>
   </div>
   
@@ -244,94 +275,102 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="the-task" class="level2">
-<h2 class="anchored" data-anchor-id="the-task">The Task</h2>
-<p>In this take-home exercise, you are required to apply appropriate visual analytics methods to:</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This kickstarter aims to provide you hands-on guide on how to work with text data. By the end of this hands-on exercise, you will be able to use appropriate R functions to perform the following tasks:</p>
 <ul>
-<li>help FishEye, a non-profit organization that focuses on illegal fishing, to better identify bias, track behavior changes, and infer temporal patterns from the knowledge graphs prepared by their data analysts, or</li>
-<li>help NorthClass intuitively perceive the learning status of learners and provide feasible suggestions for adjusting teaching strategies and course designs, or</li>
-<li>to help DataInsight visualise and understand industry and geographical developments, and provide actionable recommendations for talent acquisition and job search decisions.</li>
+<li>Importing and combining multiple text files into one data.frame,</li>
+<li>Extracting data from a text string columns, and<br>
+</li>
+<li>Tidying and cleaning text data by removing markers (i.e.&nbsp;#*= etc).</li>
 </ul>
-<div class="callout callout-style-default callout-important callout-titled">
+</section>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
+<p>Firstly, install <strong>readtext</strong> package into R.</p>
+<p>Next, use the code chunk below to load <strong>readtext</strong> and <strong>tidyverse</strong> family of R packages into RStudio environment.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, readtext)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="importing-and-integrating-multiple-text-files" class="level2">
+<h2 class="anchored" data-anchor-id="importing-and-integrating-multiple-text-files">Importing and Integrating Multiple Text Files</h2>
+<p>The text data provided are stored in individual text files (i.e.&nbsp;txt). The folder name is called articles.</p>
+<p>Use the code chunk below to create a character object called <em>data_folder</em>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data_folder <span class="ot">&lt;-</span> <span class="st">"data/articles"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Next, <code>readtext()</code> of readtxt package is used to import the text files into R and at the same time combine them into a data.frame called <em>text_dat</em>a.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>text_data <span class="ot">&lt;-</span> <span class="fu">readtext</span>(<span class="st">"data/articles/*"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>It is always a good practice to check the output R object by using <code>class()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(text_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "readtext"   "data.frame"</code></pre>
+</div>
+</div>
+</section>
+<section id="tidying-the-text-data" class="level2">
+<h2 class="anchored" data-anchor-id="tidying-the-text-data">Tidying the Text Data</h2>
+<p>Screenshot below shows the values in <em>doc_id</em> are not tidy where by the companies and news agencies are combined together. They are separated by either <em>0_0</em> etc.</p>
+<p><img src="images/image5.jpg" class="img-fluid"></p>
+<p>Code chunk below will be used to split string values in doc_id column into two columns, one for companies and another one for news agencies</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>text_df <span class="ot">&lt;-</span> text_data <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">doc_id =</span> <span class="fu">str_remove</span>(</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    doc_id, <span class="st">"</span><span class="sc">\\</span><span class="st">.txt$"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate</span>(doc_id, </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">into =</span> <span class="fu">c</span>(<span class="st">"Company"</span>, <span class="st">"NewsAgency"</span>), </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>           <span class="at">sep =</span> <span class="st">"__</span><span class="sc">\\</span><span class="st">d__</span><span class="sc">\\</span><span class="st">d__"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Important
+Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p>Things to learn from the code chunk below:</p>
 <ul>
-<li>You only need to attempt either <strong>one out of the three Mini Cases</strong> (i.e.&nbsp;<a href="https://vast-challenge.github.io/2024/MC1.html">MC1</a>, <a href="https://vast-challenge.github.io/2024/MC2.html">MC2</a>, <a href="https://vast-challenge.github.io/2024/MC3.html">MC3</a>) or <a href="https://vast-challenge.github.io/2024/GC.html">Grand Challenge</a> provided in <a href="https://vast-challenge.github.io/2024/">VAST Challenge 2024</a> or <strong>Data Analysis Inspires Wisdom: Time-Series Multivariate Education Data Visual Analytics Challenge</strong> or <strong>Insight into Recruitment Data: Multivariate Recruitment Data Visual Analytics Challenge</strong> of <a href="https://chinavis.org/2024/english/challenge_en.html">ChinaVis 2024</a>.</li>
-<li>The data should be processed by using appropriate <strong>tidyverse</strong> family of packages and the Visual Analytics tools must be prepared by using appropriate R packages.</li>
+<li><code>str_remove()</code> is used to remove .txt from the text string.</li>
+<li><code>mutate()</code> is used to update the changes into <em>doc_id</em> could.</li>
+<li><code>separate()</code> is used to separate the company name and news agency name from doc_id column into two columns (i.e.&nbsp;<em>Company</em> and <em>NewsAgency</em>.)</li>
 </ul>
 </div>
 </div>
-</section>
-<section id="assessment-rubic" class="level2">
-<h2 class="anchored" data-anchor-id="assessment-rubic">Assessment Rubic</h2>
+<p>The tidied data should look similar to the screenshot below.</p>
+<p><img src="images/image6.jpg" class="img-fluid"></p>
+<p>By examine the <em>text_df</em> tibble data.table closely, two data issues revealed. They are:</p>
 <ul>
-<li>Quality of Visual Storytelling (30%): Ability to provide visually-driven discussions and answers on the tasks and questions chosen.</li>
-<li>Quality of Data Visualisation (30%): Appropriateness, functional and aesthetics of the data visualisation used.</li>
-<li>Quality of Data Preparation and Wrangling (20%): Appropriateness and proficiency of using tidyverse and other related R packages to prepare and wrangle the data.</li>
-<li>Quality of Reproducibility (20%): Completeness and comprehensiveness of documenting the data visualisation process including and not limited to data import, data preparation, data wrangling, data integration and data visualisation design.</li>
+<li>There are text strings contain “**== whereby further data cleaning are required.</li>
+<li>There are ten (10) text strings are in the form of police report format and not in a typical text format.</li>
 </ul>
-</section>
-<section id="submission-instructions" class="level2">
-<h2 class="anchored" data-anchor-id="submission-instructions">Submission Instructions</h2>
-<p>This is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.</p>
-<div class="callout callout-style-default callout-important callout-titled">
+<p><img src="images/image7.jpg" class="img-fluid"></p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Important
+DIY
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The specific submission instructions are as follows:</p>
 <ul>
-<li>The write-up of the take-home exercise must be in <strong>Quarto html document</strong> format. You are required to publish the write-up on <a href="https://www.netlify.com/"><strong>Netlify</strong></a>.</li>
-<li>Provide the links to the Take-home Exercise write-up and github repository onto eLearn (i.e.&nbsp;Take-home Exercise section)</li>
+<li>Remove “**=+ from the string values.</li>
+<li>Extract rows with police reports and save them into a new csv file for future processing and analysis.</li>
 </ul>
 </div>
 </div>
-</section>
-<section id="submission-date" class="level2">
-<h2 class="anchored" data-anchor-id="submission-date">Submission date</h2>
-<p>Your completed take-home exercise is due on <del><strong>2nd</strong></del> <strong>9th June 2024, by 11:59 mid-night</strong>.</p>
-</section>
-<section id="kickstarter" class="level2">
-<h2 class="anchored" data-anchor-id="kickstarter">KickStarter</h2>
-<ul>
-<li><a href="../VAST/kickstarter1.html">Kickstarter 1: Working with Text Data</a></li>
-<li><a href="../VAST/kickstarter2.html">Kickstarter 2: Working with Graph Data</a></li>
-<li><a href="">Kickstarter 3: Working with Geographic Data</a></li>
-</ul>
-</section>
-<section id="learning-from-senior" class="level2">
-<h2 class="anchored" data-anchor-id="learning-from-senior">Learning from Senior</h2>
-<ul>
-<li><a href="https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_GUAN_YIFEI">ISSS608 2016-17 T3 Assign GUAN YIFEI</a>. Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.</li>
-<li><a href="https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_ZHANG_YANRONG">ISSS608 2016-17 T3 Assign ZHANG YANRONG</a>. Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.</li>
-<li><a href="https://isss608-jordan-va.netlify.app/th_ex6/th_ex6.html">ISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan</a></li>
-<li><a href="https://isss608-raunakkapur.netlify.app/th_ex/the6">ISSS608 2021-22 April Term Assignment 6: Raunak Kapur</a></li>
-</ul>
-<p><strong>AY2022-23 April Term</strong></p>
-<ul>
-<li><a href="https://smu-isss608-vaa.netlify.app/take-home_ex/take-home_ex03/take-home_ex03#overview">ONG CHAE HUI</a></li>
-<li><a href="https://cosmic-boon.netlify.app/take-home_ex/take-home_ex03/take-home_ex3">KWA KAH BOON</a></li>
-<li><a href="https://fongbx-isss608-visual-analytics.netlify.app/take-home%20ex/take-home_ex03/take-home_ex03">FONG BAO XIAN</a></li>
-<li><a href="https://isss608-ay2023-haileycsy.netlify.app/take-home_ex/take-home_ex03/take-home_ex03">HAILEY CHEONG SZE-YENN</a></li>
-</ul>
-</section>
-<section id="reference" class="level2">
-<h2 class="anchored" data-anchor-id="reference">Reference</h2>
-<ul>
-<li><a href="https://par.nsf.gov/servlets/purl/10394301">Analysis Without Data: Teaching Students to Tackle the VAST Challenge</a></li>
-</ul>
+<p>Before moving to the next section, it is always a good practice to save the tidied tibble data.frame into a physical file for subsequent use.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write_rds</span>(text_df, <span class="st">"../VAST/data/rds/text_df.rds"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>

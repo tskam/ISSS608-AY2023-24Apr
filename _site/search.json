@@ -2826,5 +2826,47 @@
     "title": "Kickstarter 2: Working with Graph Data",
     "section": "Getting Started",
     "text": "Getting Started\nFor the purpose of this exercise, three R packages will be used. They are tidyverse, jsonlite and SmartEDA.\n\n\n\n\n\n\nNote\n\n\n\nYou are required to install the R packages above, if necessary, before continue to the next step.\n\n\nIn the code chunk below, p_load() of pacman package is used to load the R packages into R environemnt.\n\npacman::p_load(tidyverse, jsonlite)"
+  },
+  {
+    "objectID": "VAST/kickstarter1.html",
+    "href": "VAST/kickstarter1.html",
+    "title": "Kickstarter 1: Working with Text Data",
+    "section": "",
+    "text": "This kickstarter aims to provide you hands-on guide on how to work with text data. By the end of this hands-on exercise, you will be able to use appropriate R functions to perform the following tasks:\n\nImporting and combining multiple text files into one data.frame,\nExtracting data from a text string columns, and\n\nTidying and cleaning text data by removing markers (i.e. #*= etc)."
+  },
+  {
+    "objectID": "VAST/kickstarter1.html#importing-and-integrating-multiple-text-files",
+    "href": "VAST/kickstarter1.html#importing-and-integrating-multiple-text-files",
+    "title": "Kickstarter 1: Working with Text Data",
+    "section": "Importing and Integrating Multiple Text Files",
+    "text": "Importing and Integrating Multiple Text Files\nThe text data provided are stored in individual text files (i.e. txt). The folder name is called articles.\nUse the code chunk below to create a character object called data_folder.\n\ndata_folder &lt;- \"data/articles\"\n\nNext, readtext() of readtxt package is used to import the text files into R and at the same time combine them into a data.frame called text_data.\n\ntext_data &lt;- readtext(\"data/articles/*\")\n\nIt is always a good practice to check the output R object by using class().\n\nclass(text_data)\n\n[1] \"readtext\"   \"data.frame\""
+  },
+  {
+    "objectID": "VAST/kickstarter1.html#tidying-the-text-data",
+    "href": "VAST/kickstarter1.html#tidying-the-text-data",
+    "title": "Kickstarter 1: Working with Text Data",
+    "section": "Tidying the Text Data",
+    "text": "Tidying the Text Data\nScreenshot below shows the values in doc_id are not tidy where by the companies and news agencies are combined together. They are separated by either 0_0 etc.\n\nCode chunk below will be used to split string values in doc_id column into two columns, one for companies and another one for news agencies\n\ntext_df &lt;- text_data %&gt;%\n  mutate(doc_id = str_remove(\n    doc_id, \"\\\\.txt$\")) %&gt;%\n  separate(doc_id, \n           into = c(\"Company\", \"NewsAgency\"), \n           sep = \"__\\\\d__\\\\d__\")\n\n\n\n\n\n\n\nNote\n\n\n\nThings to learn from the code chunk below:\n\nstr_remove() is used to remove .txt from the text string.\nmutate() is used to update the changes into doc_id could.\nseparate() is used to separate the company name and news agency name from doc_id column into two columns (i.e. Company and NewsAgency.)\n\n\n\nThe tidied data should look similar to the screenshot below.\n\nBy examine the text_df tibble data.table closely, two data issues revealed. They are:\n\nThere are text strings contain “**== whereby further data cleaning are required.\nThere are ten (10) text strings are in the form of police report format and not in a typical text format.\n\n\n\n\n\n\n\n\nDIY\n\n\n\n\nRemove “**=+ from the string values.\nExtract rows with police reports and save them into a new csv file for future processing and analysis.\n\n\n\nBefore moving to the next section, it is always a good practice to save the tidied tibble data.frame into a physical file for subsequent use.\n\nwrite_rds(text_df, \"../VAST/data/rds/text_df.rds\")"
+  },
+  {
+    "objectID": "VAST/kickstarter1.html#section",
+    "href": "VAST/kickstarter1.html#section",
+    "title": "Kickstarter 1: Working with Text Data",
+    "section": "",
+    "text": "pacman::p_load(tidyverse, readtext)"
+  },
+  {
+    "objectID": "VAST/kickstarter1.html#overview",
+    "href": "VAST/kickstarter1.html#overview",
+    "title": "Kickstarter 1: Working with Text Data",
+    "section": "",
+    "text": "This kickstarter aims to provide you hands-on guide on how to work with text data. By the end of this hands-on exercise, you will be able to use appropriate R functions to perform the following tasks:\n\nImporting and combining multiple text files into one data.frame,\nExtracting data from a text string columns, and\n\nTidying and cleaning text data by removing markers (i.e. #*= etc)."
+  },
+  {
+    "objectID": "VAST/kickstarter1.html#getting-started",
+    "href": "VAST/kickstarter1.html#getting-started",
+    "title": "Kickstarter 1: Working with Text Data",
+    "section": "Getting Started",
+    "text": "Getting Started\nFirstly, install readtext package into R.\nNext, use the code chunk below to load readtext and tidyverse family of R packages into RStudio environment.\n\npacman::p_load(tidyverse, readtext)"
   }
 ]
