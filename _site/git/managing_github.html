@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-04-07">
 
-<title>ISSS608 - Git and Github</title>
+<title>ISSS608 - Managing Github repository access</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -79,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">ISSS608</span>
     </a>
   </div>
@@ -90,11 +89,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html"> 
+    <a class="nav-link" href="../syllabus.html"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lesson.html"> 
+    <a class="nav-link" href="../lesson.html"> 
 <span class="menu-text">Lesson Plan</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -103,21 +102,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
         <li>
-    <a class="dropdown-item" href="./take-home_ex/TH_EX01.html">
+    <a class="dropdown-item" href="../take-home_ex/TH_EX01.html">
  <span class="dropdown-text">Take-home Exercise 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./take-home_ex/TH_EX02.html">
+    <a class="dropdown-item" href="../take-home_ex/TH_EX02.html">
  <span class="dropdown-text">Take-home Exercise 2</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./take-home_ex/TH_EX03.html">
+    <a class="dropdown-item" href="../take-home_ex/TH_EX03.html">
  <span class="dropdown-text">Take-home Exercise 3</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./VAproject.html"> 
+    <a class="nav-link" href="../VAproject.html"> 
 <span class="menu-text">Visual Analytics Project</span></a>
   </li>  
 </ul>
@@ -128,25 +127,25 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-shiny-workshop">    
         <li>
-    <a class="dropdown-item" href="./ShinyWorkshop/Shiny1/Shiny1.html">
+    <a class="dropdown-item" href="../ShinyWorkshop/Shiny1/Shiny1.html">
  <span class="dropdown-text">R Shiny basic</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./ShinyWorkshop/Shiny2/Shiny2.html">
+    <a class="dropdown-item" href="../ShinyWorkshop/Shiny2/Shiny2.html">
  <span class="dropdown-text">Beyond the basic</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./ShinyWorkshop/Shiny3/Shiny3.html">
+    <a class="dropdown-item" href="../ShinyWorkshop/Shiny3/Shiny3.html">
  <span class="dropdown-text">Customising Shiny</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./ShinyResources.html">
+    <a class="dropdown-item" href="../ShinyResources.html">
  <span class="dropdown-text">Shiny Resources</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./Tableau.html"> 
+    <a class="nav-link" href="../Tableau.html"> 
 <span class="menu-text">Tableau Resources</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -155,33 +154,33 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-all-about-r">    
         <li>
-    <a class="dropdown-item" href="./R.html">
+    <a class="dropdown-item" href="../R.html">
  <span class="dropdown-text">R Resouces</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./R4Vis.html">
+    <a class="dropdown-item" href="../R4Vis.html">
  <span class="dropdown-text">R for Visual Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Rt.html">
+    <a class="dropdown-item" href="../Rt.html">
  <span class="dropdown-text">R tips &amp; tricks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Quarto.html">
+    <a class="dropdown-item" href="../Quarto.html">
  <span class="dropdown-text">Quarto</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./git.html">
+    <a class="dropdown-item" href="../git.html">
  <span class="dropdown-text">git and github</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./vast.html">
+    <a class="dropdown-item" href="../vast.html">
  <span class="dropdown-text">VAST Challenge 2024 Kickstarter</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -196,22 +195,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#book" id="toc-book" class="nav-link active" data-scroll-target="#book">Book</a></li>
-  <li><a href="#gitgithub" id="toc-gitgithub" class="nav-link" data-scroll-target="#gitgithub">git/github</a></li>
-  <li><a href="#blog-post" id="toc-blog-post" class="nav-link" data-scroll-target="#blog-post">Blog post</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Git and Github</h1>
+<h1 class="title">Managing Github repository access</h1>
 </div>
 
 
@@ -219,19 +210,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">April 7, 2024</p>
-    </div>
-  </div>
   
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">May 30, 2024</p>
-    </div>
-  </div>
     
   </div>
   
@@ -240,33 +219,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="book" class="level2">
-<h2 class="anchored" data-anchor-id="book">Book</h2>
-<ul>
-<li><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a>. Highly recommended to beginners.</li>
-</ul>
-</section>
-<section id="gitgithub" class="level2">
-<h2 class="anchored" data-anchor-id="gitgithub">git/github</h2>
-<ul>
-<li><a href="https://docs.github.com/en">github doc</a></li>
-<li><a href="https://resources.github.com/whitepapers/github-and-rstudio/">GitHub and RStudio</a></li>
-<li><a href="git/managing_github.html">Managing Github Repository Access</a></li>
-</ul>
-</section>
-<section id="blog-post" class="level2">
-<h2 class="anchored" data-anchor-id="blog-post">Blog post</h2>
-<ul>
-<li><a href="https://nceas.github.io/training-git-intro/getting-started-with-git-rstudio.html">Getting starting with git and GitHub using RStudio</a></li>
-<li><a href="https://info5940.infosci.cornell.edu/setup/git/">git</a></li>
-<li><a href="https://rtask.thinkr.fr/transform-a-folder-as-git-project-synchronized-on-github-or-gitlab/">Transform a folder as git project synchronized on Github or Gitlab</a></li>
-<li><a href="https://info5940.infosci.cornell.edu/notes/project-management/common-git-problems/">Recovering from common Git predicaments</a></li>
-<li><a href="https://r4dsa.netlify.app/posts/2021-05-22-git-in-rstudio/">git in RStudio</a></li>
-<li><a href="https://r4dsa.netlify.app/posts/2021-05-23-git-token/">Solving git(GitHub) token issue</a></li>
-</ul>
+<p>This short write-up aims to provide you basic guide on how to allow others to edit and upload to a GitHub repository.</p>
+<p>If you are the owner of the repository, you can add collaborators who will have direct write access to the repository. Here is how you can do it:</p>
+<ol type="1">
+<li><p>Go to the repository on GitHub: Navigate to your repository on GitHub.</p></li>
+<li><p>Open the “Settings” tab: You can find this at the top of the repository page.</p></li>
+<li><p>Select “Collaborators”: On the sidebar, under “Access management,” click on “Collaborators.”</p></li>
+<li><p>Add a collaborator: Enter the GitHub username or email of the person you want to add, and then click “Add collaborator.”</p></li>
+<li><p>Send invitation: The person will receive an invitation. Once they accept it, they will have write access to the repository.</p></li>
+</ol>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

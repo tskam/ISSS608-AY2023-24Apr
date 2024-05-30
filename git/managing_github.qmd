@@ -1,0 +1,17 @@
+---
+title: "Managing Github repository access"
+---
+
+This short write-up aims to provide you basic guide on how to allow others to edit and upload to a GitHub repository.
+
+If you are the owner of the repository, you can add collaborators who will have direct write access to the repository. Here is how you can do it:
+
+1.  Go to the repository on GitHub: Navigate to your repository on GitHub.
+
+2.  Open the "Settings" tab: You can find this at the top of the repository page.
+
+3.  Select "Collaborators": On the sidebar, under "Access management," click on "Collaborators."
+
+4.  Add a collaborator: Enter the GitHub username or email of the person you want to add, and then click "Add collaborator."
+
+5.  Send invitation: The person will receive an invitation. Once they accept it, they will have write access to the repository.

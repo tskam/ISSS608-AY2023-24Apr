@@ -14,6 +14,7 @@ editor: visual
 
 -   [github doc](https://docs.github.com/en)
 -   [GitHub and RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
+-   [Managing Github Repository Access](git/managing_github.html)
 
 ## Blog post
 
