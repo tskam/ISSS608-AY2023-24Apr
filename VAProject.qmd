@@ -16,7 +16,7 @@ A project may involve developing new methods or implementing visual analytics sy
 
 ## Project Topic
 
-This term the topic of Visual Analytics Project will be based on either [VAST Challenge 2024](https://vast-challenge.github.io/2024/index.html) or [ChinaVis Data Visualisation Competition](https://chinavis.org/2024/english/challenge_en.html). For VAST Challenge 2024, there are three Mini Challenges and a Grand Challenge provided.  On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge.
+This term the topic of Visual Analytics Project will be based on either [VAST Challenge 2024](https://vast-challenge.github.io/2024/index.html) or [ChinaVis Data Visualisation Competition](https://chinavis.org/2024/english/challenge_en.html). For VAST Challenge 2024, there are three Mini Challenges and a Grand Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge.
 
 ## Project Management
 
@@ -153,6 +153,29 @@ Note that the following examples are for references purposes. You are urge to us
 -   [The Alchemists](https://projectpisa.netlify.app/)
 -   [Weather Analytics](https://isss608-group9-weatheranalytics.shinyapps.io/shinyapp/)
 -   [Decoding Chaos](https://decoding-chaos.netlify.app/)
+
+## AY2023-2024 Current Term
+
+-   [Group 1](https://vastchallenge-grp1-mc2.netlify.app/)
+
+-   [Group 2](https://isss608-g2.netlify.app/)
+
+-   [Group 3](https://projsharktank.netlify.app/)
+
+-   [Group 4](https://isss608-202324g4.netlify.app/)
+
+-   [Group 5]()	
+
+-   [Group 6](https://jayexx-assignmts-isss608-ay23-24-t3.netlify.app/group_project_g6/proposal/group6_project_proposal)
+
+-   [Group 7](https://vaprojectgroup7.netlify.app/)
+
+-   [Group 8](https://isss608-ay2023-24apr-project.netlify.app/)
+
+-   [Group 9](https://isss608-vaaproject-jws-mc2.netlify.app/)
+
+
+
 
 # Q & A
 
