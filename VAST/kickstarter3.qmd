@@ -12,11 +12,13 @@ execute:
 
 ## Overview
 
-This kickstarter aims to provide you hands-on guide on how to work with geographical data. By the end of this hands-on exercise, you will be able to use appropriate functions of R packages to perform the following tasks:
+This kickstarter aims to provide you hands-on guide on how to work with geographical data, especially creating trajectory data from a geo-temporal movement data.By the end of this hands-on exercise, you will be able to use appropriate functions of R packages to perform the following tasks:
 
 -   Importing geographical data in geojson file format into R,
--   Importing geographical data in ESRI shapefile format into R, and
--   Visualising sf tibble data.
+-   Importing geographical data in ESRI shapefile format into R,
+-   Extracting movement data from the edges table of a knowledge graph,
+-   Deriving a trajectory data from a movement data, and 
+-   Visualising trajectory data to reveal geo-temporal patterns.
 
 ## Getting Started
 

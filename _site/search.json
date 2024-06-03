@@ -2909,14 +2909,14 @@
     "href": "VAST/kickstarter3.html",
     "title": "Kickstarter 3: Working with Geographical Data",
     "section": "",
-    "text": "This kickstarter aims to provide you hands-on guide on how to work with geographical data. By the end of this hands-on exercise, you will be able to use appropriate functions of R packages to perform the following tasks:\n\nImporting geographical data in geojson file format into R,\nImporting geographical data in ESRI shapefile format into R, and\nVisualising sf tibble data."
+    "text": "This kickstarter aims to provide you hands-on guide on how to work with geographical data, especially creating trajectory data from a geo-temporal movement data.By the end of this hands-on exercise, you will be able to use appropriate functions of R packages to perform the following tasks:\n\nImporting geographical data in geojson file format into R,\nImporting geographical data in ESRI shapefile format into R,\nExtracting movement data from the edges table of a knowledge graph,\nDeriving a trajectory data from a movement data, and\nVisualising trajectory data to reveal geo-temporal patterns."
   },
   {
     "objectID": "VAST/kickstarter3.html#overview",
     "href": "VAST/kickstarter3.html#overview",
     "title": "Kickstarter 3: Working with Geographical Data",
     "section": "",
-    "text": "This kickstarter aims to provide you hands-on guide on how to work with geographical data. By the end of this hands-on exercise, you will be able to use appropriate functions of R packages to perform the following tasks:\n\nImporting geographical data in geojson file format into R,\nImporting geographical data in ESRI shapefile format into R, and\nVisualising sf tibble data."
+    "text": "This kickstarter aims to provide you hands-on guide on how to work with geographical data, especially creating trajectory data from a geo-temporal movement data.By the end of this hands-on exercise, you will be able to use appropriate functions of R packages to perform the following tasks:\n\nImporting geographical data in geojson file format into R,\nImporting geographical data in ESRI shapefile format into R,\nExtracting movement data from the edges table of a knowledge graph,\nDeriving a trajectory data from a movement data, and\nVisualising trajectory data to reveal geo-temporal patterns."
   },
   {
     "objectID": "VAST/kickstarter3.html#getting-started",
