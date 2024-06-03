@@ -12,7 +12,7 @@ execute:
 
 ## Overview
 
-This kickstarter aims to provide you hands-on guide on how to work with graph data.  By the end of this hands-on exercise, you will be able to use appropriate R functions to perform the following tasks:
+This kickstarter aims to provide you hands-on guide on how to work with graph data. By the end of this hands-on exercise, you will be able to use appropriate R functions to perform the following tasks:
 
 -   Importing graph data in json file format into R
 -   Extracting the nodes and edges (also known as links) from imported graph data.
@@ -20,10 +20,10 @@ This kickstarter aims to provide you hands-on guide on how to work with graph da
 
 ## Getting Started
 
-For the purpose of this exercise, three R packages will be used.  They are tidyverse, jsonlite and SmartEDA.  
+For the purpose of this exercise, three R packages will be used. They are tidyverse, jsonlite and SmartEDA.
 
-::: {.callout-note}
-You are required to install the R packages above, if necessary, before continue to the next step.  
+::: callout-note
+You are required to install the R packages above, if necessary, before continue to the next step.
 :::
 
 In the code chunk below, p_load() of pacman package is used to load the R packages into R environemnt.
@@ -36,11 +36,11 @@ pacman::p_load(tidyverse, jsonlite)
 
 For the purpose of this exercise, *mc2.json* file will be used. Before getting started, you should have the data set in the *data* sub-folder.
 
-::: {.callout-warning}
-This is a very large data set.  Please ensure that you have added a line `data/` in the *.gitignore* file.
+::: callout-warning
+This is a very large data set. Please ensure that you have added a line `data/` in the *.gitignore* file.
 :::
 
-In the code chunk below, fromJSON() of jsonlite package is used to import mc2.json file into R and save the output object 
+In the code chunk below, fromJSON() of jsonlite package is used to import mc2.json file into R and save the output object
 
 ```{r}
 mc2_data <- fromJSON("data/mc2.json")
@@ -71,12 +71,12 @@ glimpse(mc2_edges)
 From the table above, the following data issues can be identified:
 
 -   Columns with date data type are not in the correct format.
--   some field names start with "_" need to be rename in order to avoid unnecessary coding issue in the later part of the tasks.
+-   some field names start with "\_" need to be rename in order to avoid unnecessary coding issue in the later part of the tasks.
 :::
 
 ### Correcting date data type
 
-In the code chunk below, `as_datetime()` of **lubridate** package is used to convert fields with character date into **POSIXt** format. 
+In the code chunk below, `as_datetime()` of **lubridate** package is used to convert fields with character date into **POSIXt** format.
 
 ```{r}
 mc2_edges$time <- as_datetime(mc2_edges$time)
@@ -106,7 +106,7 @@ mc2_edges <- mc2_edges %>%
 
 ### Splitting words
 
-From the screenshot below, we can see that the text in *type* field are not in a tidy manner. 
+From the screenshot below, we can see that the text in *type* field are not in a tidy manner.
 
 ![](images/image1.jpg)
 
@@ -114,12 +114,11 @@ We are going to tidy the type column by creating two columns as shown below.
 
 ![](images/image2.jpg)
 
-The steps below will be used to split text in type column into two columns: namely event1 and event2. 
+The steps below will be used to split text in type column into two columns: namely event1 and event2.
 
 ::: callout-note
-The steps below can be combined in one code chunk.  However, I purposely separate them so that you can study the output of each step. 
+The steps below can be combined in one code chunk. However, I purposely separate them so that you can study the output of each step.
 :::
-
 
 ```{r}
 word_list <- strsplit(mc2_edges$type, "\\.")
@@ -158,12 +157,12 @@ mc2_edges <- mc2_edges %>%
   cbind(word_df)
 ```
 
-Before moving to the next task, it will be wiser to save the tidied *mc2_edges* into a physical file for future used.  By doing so, you also do not have to repeat the steps above.
+Before moving to the next task, it will be wiser to save the tidied *mc2_edges* into a physical file for future used. By doing so, you also do not have to repeat the steps above.
 
 The code chunk below will be used to save mc2_edges into R **rds** file format.
 
 ::: callout-note
-Please ensure that there is a sub-folder called *rds* in the *data* folder.  If not, you should create one first.
+Please ensure that there is a sub-folder called *rds* in the *data* folder. If not, you should create one first.
 :::
 
 ```{r}
@@ -173,7 +172,7 @@ write_rds(mc2_edges, "data/rds/mc2_edges.rds")
 ## Wrangling and tidying nodes
 
 ::: callout-warning
-This section mainly focuses on tidying and wrangling text data in the Activities column.  For other data checking, tidying and wrangling tasks, please refer to the steps discussed above.
+This section mainly focuses on tidying and wrangling text data in the Activities column. For other data checking, tidying and wrangling tasks, please refer to the steps discussed above.
 :::
 
 ### Extracting nodes
@@ -191,16 +190,16 @@ Next, the code chunk below is used to reveal the data structure of *mc2_nodes* t
 glimpse(mc2_nodes)
 ```
 
-From the table above, beside the date data type and inappropriate field name issues we discussed earlier, two additional data issues can be observed.  They are:
+From the table above, beside the date data type and inappropriate field name issues we discussed earlier, two additional data issues can be observed. They are:
 
 -   The values in Activities and fish_species_present fields are in **list** data type, which will affect the ability to process and to analyse the data.
--   As shown in the screenshot below, some values in the Activities field are not ready to be analyse without further tidying (i.e. removing c("")). 
+-   As shown in the screenshot below, some values in the Activities field are not ready to be analyse without further tidying (i.e. removing c("")).
 
 ![](images/image3.jpg)
 
 ### Tidying text field
 
-In the code chunk below, `mutate()` of dplyr and `gsub()` of Base R are used to perform the data todying task.  
+In the code chunk below, `mutate()` of dplyr and `gsub()` of Base R are used to perform the data todying task.
 
 ```{r}
 mc2_nodes_tidied <- mc2_nodes %>%
@@ -223,4 +222,3 @@ Notice that the text values in Activities column are in tody manner now.
 ::: callout-note
 Before moving to the next task, it is a good practice to save the tidied data into a physical file for future use.
 :::
-
